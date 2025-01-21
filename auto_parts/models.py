@@ -21,7 +21,7 @@ class Cart(models.Model):
 
 
     def __str__(self):
-        return f"Cart for {self.Customuser.username}"
+        return f"Cart for {self.CustomUser.username}"
 
 class CartItem(models.Model):
     cart = models.ForeignKey('Cart', on_delete=models.CASCADE)

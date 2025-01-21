@@ -1,0 +1,2310 @@
+{
+    "django_migrations": [
+        {
+            "id": 1,
+            "app": "contenttypes",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.022738"
+        },
+        {
+            "id": 2,
+            "app": "contenttypes",
+            "name": "0002_remove_content_type_name",
+            "applied": "2024-12-09 09:25:14.037451"
+        },
+        {
+            "id": 3,
+            "app": "auth",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.061246"
+        },
+        {
+            "id": 4,
+            "app": "auth",
+            "name": "0002_alter_permission_name_max_length",
+            "applied": "2024-12-09 09:25:14.074411"
+        },
+        {
+            "id": 5,
+            "app": "auth",
+            "name": "0003_alter_user_email_max_length",
+            "applied": "2024-12-09 09:25:14.087435"
+        },
+        {
+            "id": 6,
+            "app": "auth",
+            "name": "0004_alter_user_username_opts",
+            "applied": "2024-12-09 09:25:14.099257"
+        },
+        {
+            "id": 7,
+            "app": "auth",
+            "name": "0005_alter_user_last_login_null",
+            "applied": "2024-12-09 09:25:14.112197"
+        },
+        {
+            "id": 8,
+            "app": "auth",
+            "name": "0006_require_contenttypes_0002",
+            "applied": "2024-12-09 09:25:14.119844"
+        },
+        {
+            "id": 9,
+            "app": "auth",
+            "name": "0007_alter_validators_add_error_messages",
+            "applied": "2024-12-09 09:25:14.132022"
+        },
+        {
+            "id": 10,
+            "app": "auth",
+            "name": "0008_alter_user_username_max_length",
+            "applied": "2024-12-09 09:25:14.143968"
+        },
+        {
+            "id": 11,
+            "app": "auth",
+            "name": "0009_alter_user_last_name_max_length",
+            "applied": "2024-12-09 09:25:14.154931"
+        },
+        {
+            "id": 12,
+            "app": "auth",
+            "name": "0010_alter_group_name_max_length",
+            "applied": "2024-12-09 09:25:14.172660"
+        },
+        {
+            "id": 13,
+            "app": "auth",
+            "name": "0011_update_proxy_permissions",
+            "applied": "2024-12-09 09:25:14.188214"
+        },
+        {
+            "id": 14,
+            "app": "auth",
+            "name": "0012_alter_user_first_name_max_length",
+            "applied": "2024-12-09 09:25:14.201473"
+        },
+        {
+            "id": 15,
+            "app": "user_authentication",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.226304"
+        },
+        {
+            "id": 16,
+            "app": "admin",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.248869"
+        },
+        {
+            "id": 17,
+            "app": "admin",
+            "name": "0002_logentry_remove_auto_add",
+            "applied": "2024-12-09 09:25:14.269796"
+        },
+        {
+            "id": 18,
+            "app": "admin",
+            "name": "0003_logentry_add_action_flag_choices",
+            "applied": "2024-12-09 09:25:14.283784"
+        },
+        {
+            "id": 19,
+            "app": "adverts",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.299718"
+        },
+        {
+            "id": 20,
+            "app": "auto_parts",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.311188"
+        },
+        {
+            "id": 21,
+            "app": "auto_parts",
+            "name": "0002_initial",
+            "applied": "2024-12-09 09:25:14.370057"
+        },
+        {
+            "id": 22,
+            "app": "garage",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.382004"
+        },
+        {
+            "id": 23,
+            "app": "payments",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.391732"
+        },
+        {
+            "id": 24,
+            "app": "sessions",
+            "name": "0001_initial",
+            "applied": "2024-12-09 09:25:14.406093"
+        }
+    ],
+    "sqlite_sequence": [
+        {
+            "name": "django_migrations",
+            "seq": 24
+        },
+        {
+            "name": "django_content_type",
+            "seq": 14
+        },
+        {
+            "name": "auth_permission",
+            "seq": 56
+        },
+        {
+            "name": "auth_group",
+            "seq": 0
+        },
+        {
+            "name": "django_admin_log",
+            "seq": 65
+        },
+        {
+            "name": "auto_parts_cartitem",
+            "seq": 13
+        },
+        {
+            "name": "auto_parts_cart",
+            "seq": 7
+        },
+        {
+            "name": "user_authentication_customuser",
+            "seq": 8
+        },
+        {
+            "name": "auto_parts_products",
+            "seq": 12
+        },
+        {
+            "name": "payments_order",
+            "seq": 24
+        },
+        {
+            "name": "adverts_cars",
+            "seq": 32
+        },
+        {
+            "name": "adverts_adminmessage",
+            "seq": 8
+        },
+        {
+            "name": "garage_garage_services",
+            "seq": 9
+        },
+        {
+            "name": "garage_complainmessage",
+            "seq": 6
+        }
+    ],
+    "django_content_type": [
+        {
+            "id": 1,
+            "app_label": "admin",
+            "model": "logentry"
+        },
+        {
+            "id": 2,
+            "app_label": "auth",
+            "model": "permission"
+        },
+        {
+            "id": 3,
+            "app_label": "auth",
+            "model": "group"
+        },
+        {
+            "id": 4,
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        },
+        {
+            "id": 5,
+            "app_label": "sessions",
+            "model": "session"
+        },
+        {
+            "id": 6,
+            "app_label": "user_authentication",
+            "model": "customuser"
+        },
+        {
+            "id": 7,
+            "app_label": "auto_parts",
+            "model": "cart"
+        },
+        {
+            "id": 8,
+            "app_label": "auto_parts",
+            "model": "cartitem"
+        },
+        {
+            "id": 9,
+            "app_label": "auto_parts",
+            "model": "products"
+        },
+        {
+            "id": 10,
+            "app_label": "adverts",
+            "model": "adminmessage"
+        },
+        {
+            "id": 11,
+            "app_label": "adverts",
+            "model": "cars"
+        },
+        {
+            "id": 12,
+            "app_label": "garage",
+            "model": "complainmessage"
+        },
+        {
+            "id": 13,
+            "app_label": "garage",
+            "model": "garage_services"
+        },
+        {
+            "id": 14,
+            "app_label": "payments",
+            "model": "order"
+        }
+    ],
+    "auth_group_permissions": [],
+    "auth_permission": [
+        {
+            "id": 1,
+            "content_type_id": 1,
+            "codename": "add_logentry",
+            "name": "Can add log entry"
+        },
+        {
+            "id": 2,
+            "content_type_id": 1,
+            "codename": "change_logentry",
+            "name": "Can change log entry"
+        },
+        {
+            "id": 3,
+            "content_type_id": 1,
+            "codename": "delete_logentry",
+            "name": "Can delete log entry"
+        },
+        {
+            "id": 4,
+            "content_type_id": 1,
+            "codename": "view_logentry",
+            "name": "Can view log entry"
+        },
+        {
+            "id": 5,
+            "content_type_id": 2,
+            "codename": "add_permission",
+            "name": "Can add permission"
+        },
+        {
+            "id": 6,
+            "content_type_id": 2,
+            "codename": "change_permission",
+            "name": "Can change permission"
+        },
+        {
+            "id": 7,
+            "content_type_id": 2,
+            "codename": "delete_permission",
+            "name": "Can delete permission"
+        },
+        {
+            "id": 8,
+            "content_type_id": 2,
+            "codename": "view_permission",
+            "name": "Can view permission"
+        },
+        {
+            "id": 9,
+            "content_type_id": 3,
+            "codename": "add_group",
+            "name": "Can add group"
+        },
+        {
+            "id": 10,
+            "content_type_id": 3,
+            "codename": "change_group",
+            "name": "Can change group"
+        },
+        {
+            "id": 11,
+            "content_type_id": 3,
+            "codename": "delete_group",
+            "name": "Can delete group"
+        },
+        {
+            "id": 12,
+            "content_type_id": 3,
+            "codename": "view_group",
+            "name": "Can view group"
+        },
+        {
+            "id": 13,
+            "content_type_id": 4,
+            "codename": "add_contenttype",
+            "name": "Can add content type"
+        },
+        {
+            "id": 14,
+            "content_type_id": 4,
+            "codename": "change_contenttype",
+            "name": "Can change content type"
+        },
+        {
+            "id": 15,
+            "content_type_id": 4,
+            "codename": "delete_contenttype",
+            "name": "Can delete content type"
+        },
+        {
+            "id": 16,
+            "content_type_id": 4,
+            "codename": "view_contenttype",
+            "name": "Can view content type"
+        },
+        {
+            "id": 17,
+            "content_type_id": 5,
+            "codename": "add_session",
+            "name": "Can add session"
+        },
+        {
+            "id": 18,
+            "content_type_id": 5,
+            "codename": "change_session",
+            "name": "Can change session"
+        },
+        {
+            "id": 19,
+            "content_type_id": 5,
+            "codename": "delete_session",
+            "name": "Can delete session"
+        },
+        {
+            "id": 20,
+            "content_type_id": 5,
+            "codename": "view_session",
+            "name": "Can view session"
+        },
+        {
+            "id": 21,
+            "content_type_id": 6,
+            "codename": "add_customuser",
+            "name": "Can add user"
+        },
+        {
+            "id": 22,
+            "content_type_id": 6,
+            "codename": "change_customuser",
+            "name": "Can change user"
+        },
+        {
+            "id": 23,
+            "content_type_id": 6,
+            "codename": "delete_customuser",
+            "name": "Can delete user"
+        },
+        {
+            "id": 24,
+            "content_type_id": 6,
+            "codename": "view_customuser",
+            "name": "Can view user"
+        },
+        {
+            "id": 25,
+            "content_type_id": 7,
+            "codename": "add_cart",
+            "name": "Can add cart"
+        },
+        {
+            "id": 26,
+            "content_type_id": 7,
+            "codename": "change_cart",
+            "name": "Can change cart"
+        },
+        {
+            "id": 27,
+            "content_type_id": 7,
+            "codename": "delete_cart",
+            "name": "Can delete cart"
+        },
+        {
+            "id": 28,
+            "content_type_id": 7,
+            "codename": "view_cart",
+            "name": "Can view cart"
+        },
+        {
+            "id": 29,
+            "content_type_id": 8,
+            "codename": "add_cartitem",
+            "name": "Can add cart item"
+        },
+        {
+            "id": 30,
+            "content_type_id": 8,
+            "codename": "change_cartitem",
+            "name": "Can change cart item"
+        },
+        {
+            "id": 31,
+            "content_type_id": 8,
+            "codename": "delete_cartitem",
+            "name": "Can delete cart item"
+        },
+        {
+            "id": 32,
+            "content_type_id": 8,
+            "codename": "view_cartitem",
+            "name": "Can view cart item"
+        },
+        {
+            "id": 33,
+            "content_type_id": 9,
+            "codename": "add_products",
+            "name": "Can add products"
+        },
+        {
+            "id": 34,
+            "content_type_id": 9,
+            "codename": "change_products",
+            "name": "Can change products"
+        },
+        {
+            "id": 35,
+            "content_type_id": 9,
+            "codename": "delete_products",
+            "name": "Can delete products"
+        },
+        {
+            "id": 36,
+            "content_type_id": 9,
+            "codename": "view_products",
+            "name": "Can view products"
+        },
+        {
+            "id": 37,
+            "content_type_id": 10,
+            "codename": "add_adminmessage",
+            "name": "Can add admin message"
+        },
+        {
+            "id": 38,
+            "content_type_id": 10,
+            "codename": "change_adminmessage",
+            "name": "Can change admin message"
+        },
+        {
+            "id": 39,
+            "content_type_id": 10,
+            "codename": "delete_adminmessage",
+            "name": "Can delete admin message"
+        },
+        {
+            "id": 40,
+            "content_type_id": 10,
+            "codename": "view_adminmessage",
+            "name": "Can view admin message"
+        },
+        {
+            "id": 41,
+            "content_type_id": 11,
+            "codename": "add_cars",
+            "name": "Can add cars"
+        },
+        {
+            "id": 42,
+            "content_type_id": 11,
+            "codename": "change_cars",
+            "name": "Can change cars"
+        },
+        {
+            "id": 43,
+            "content_type_id": 11,
+            "codename": "delete_cars",
+            "name": "Can delete cars"
+        },
+        {
+            "id": 44,
+            "content_type_id": 11,
+            "codename": "view_cars",
+            "name": "Can view cars"
+        },
+        {
+            "id": 45,
+            "content_type_id": 12,
+            "codename": "add_complainmessage",
+            "name": "Can add complain message"
+        },
+        {
+            "id": 46,
+            "content_type_id": 12,
+            "codename": "change_complainmessage",
+            "name": "Can change complain message"
+        },
+        {
+            "id": 47,
+            "content_type_id": 12,
+            "codename": "delete_complainmessage",
+            "name": "Can delete complain message"
+        },
+        {
+            "id": 48,
+            "content_type_id": 12,
+            "codename": "view_complainmessage",
+            "name": "Can view complain message"
+        },
+        {
+            "id": 49,
+            "content_type_id": 13,
+            "codename": "add_garage_services",
+            "name": "Can add garage_services"
+        },
+        {
+            "id": 50,
+            "content_type_id": 13,
+            "codename": "change_garage_services",
+            "name": "Can change garage_services"
+        },
+        {
+            "id": 51,
+            "content_type_id": 13,
+            "codename": "delete_garage_services",
+            "name": "Can delete garage_services"
+        },
+        {
+            "id": 52,
+            "content_type_id": 13,
+            "codename": "view_garage_services",
+            "name": "Can view garage_services"
+        },
+        {
+            "id": 53,
+            "content_type_id": 14,
+            "codename": "add_order",
+            "name": "Can add order"
+        },
+        {
+            "id": 54,
+            "content_type_id": 14,
+            "codename": "change_order",
+            "name": "Can change order"
+        },
+        {
+            "id": 55,
+            "content_type_id": 14,
+            "codename": "delete_order",
+            "name": "Can delete order"
+        },
+        {
+            "id": 56,
+            "content_type_id": 14,
+            "codename": "view_order",
+            "name": "Can view order"
+        }
+    ],
+    "auth_group": [],
+    "user_authentication_customuser": [
+        {
+            "id": 1,
+            "password": "pbkdf2_sha256$870000$T04fVuqO0nHXMzZGuOWEY4$cOCkjN7gBNEMSCiQ0mxIrEWbUh7N35LmgdwWPlne2Uo=",
+            "last_login": "2024-12-18 11:09:45.386669",
+            "is_superuser": 0,
+            "username": "Gachombajg",
+            "first_name": "",
+            "last_name": "",
+            "email": "gachombajames7@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-12-09 09:27:19.627066",
+            "accept_terms": 0,
+            "completed": 0,
+            "profile_image": "",
+            "bio": "",
+            "alternative_password": ""
+        },
+        {
+            "id": 2,
+            "password": "pbkdf2_sha256$870000$1afMxA8vtKkfAJyOQ6H7MP$NC/KuNOgoYgtKRySTiycLcDJse8jdVqY+1qVdPgHo2Q=",
+            "last_login": null,
+            "is_superuser": 1,
+            "username": "Pjjymo254",
+            "first_name": "",
+            "last_name": "",
+            "email": "gmotionscommerce@gmail.com",
+            "is_staff": 1,
+            "is_active": 1,
+            "date_joined": "2024-12-09 09:44:26.822088",
+            "accept_terms": 0,
+            "completed": 1,
+            "profile_image": "",
+            "bio": "",
+            "alternative_password": ""
+        },
+        {
+            "id": 3,
+            "password": "pbkdf2_sha256$870000$JCXtqtTribc3JpvFcoHTLd$Xm9tUORl8mfLozwHRlMYsnyRSlC/gJ2VaZNO0N0svoA=",
+            "last_login": "2025-01-20 14:45:24.817687",
+            "is_superuser": 1,
+            "username": "Gmotionsadmin",
+            "first_name": "",
+            "last_name": "",
+            "email": "gmotionscommerce@gmail.com",
+            "is_staff": 1,
+            "is_active": 1,
+            "date_joined": "2024-12-09 09:46:27.832861",
+            "accept_terms": 0,
+            "completed": 1,
+            "profile_image": "",
+            "bio": "",
+            "alternative_password": ""
+        },
+        {
+            "id": 4,
+            "password": "pbkdf2_sha256$870000$K31SRK1x6neGa1081B2nPD$JWjPBvm+Gk4g47llK87g4bPcdudylpyvA+idmhggUzY=",
+            "last_login": "2025-01-20 14:46:30.421921",
+            "is_superuser": 0,
+            "username": "Fei254",
+            "first_name": "",
+            "last_name": "",
+            "email": "gachombajames95@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-12-10 12:05:44.482203",
+            "accept_terms": 0,
+            "completed": 0,
+            "profile_image": "",
+            "bio": "",
+            "alternative_password": ""
+        },
+        {
+            "id": 5,
+            "password": "pbkdf2_sha256$870000$IsNiwKazCsRH98pvfdz9ij$ZtL39TluJlYzKr5c8yr/WQR6ylIdKfGs2hxoyMO5XK0=",
+            "last_login": "2024-12-11 06:34:34.861349",
+            "is_superuser": 0,
+            "username": "Pjjames95",
+            "first_name": "",
+            "last_name": "",
+            "email": "gachombajames7@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-12-10 16:06:55.377733",
+            "accept_terms": 0,
+            "completed": 1,
+            "profile_image": "profile_images/audi_8dbAbUI.jpg",
+            "bio": "Am a student at emobilis mobile technology institute.",
+            "alternative_password": "4W3JA2GMP"
+        },
+        {
+            "id": 7,
+            "password": "pbkdf2_sha256$870000$SSNeCZc9WjhQyYk6XsGKap$0uBMARz+33SJc/GAbFJ3+coPtygwGWmMOUQXwlaSM8E=",
+            "last_login": "2024-12-11 09:28:14.089699",
+            "is_superuser": 0,
+            "username": "agnes",
+            "first_name": "",
+            "last_name": "",
+            "email": "gachombajames7@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-12-11 09:15:45.065986",
+            "accept_terms": 0,
+            "completed": 1,
+            "profile_image": "profile_images/audi_2cJyuD0.png",
+            "bio": "I am a student at Kisii University taking Applied Computer Science.",
+            "alternative_password": "aggy123@"
+        },
+        {
+            "id": 8,
+            "password": "pbkdf2_sha256$870000$4e7Lsu5Tqs5KT7uBg6elJU$OcsSAtZwQWCwkjeA/TmqYH55H7XlZrXmxan/9VYE19c=",
+            "last_login": "2025-01-13 10:04:16.551008",
+            "is_superuser": 0,
+            "username": "peterbro",
+            "first_name": "",
+            "last_name": "",
+            "email": "smallbro1@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-12-24 16:43:36.415460",
+            "accept_terms": 0,
+            "completed": 1,
+            "profile_image": "profile_images/pexels-mikebirdy-1054211_1nRG8Mg.jpg",
+            "bio": "small bro",
+            "alternative_password": "petersmall123!"
+        }
+    ],
+    "user_authentication_customuser_groups": [],
+    "user_authentication_customuser_user_permissions": [],
+    "django_admin_log": [
+        {
+            "id": 1,
+            "object_id": "1",
+            "object_repr": "New car windscreen",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-09 09:48:18.922151"
+        },
+        {
+            "id": 2,
+            "object_id": "1",
+            "object_repr": "FORD RANGER",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 06:40:21.539558"
+        },
+        {
+            "id": 3,
+            "object_id": "2",
+            "object_repr": "NEW FORD RANGER RAPTOR",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 06:44:22.633682"
+        },
+        {
+            "id": 4,
+            "object_id": "2",
+            "object_repr": "NEW FORD RANGER RAPTOR",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Short description\"]}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 06:47:06.516513"
+        },
+        {
+            "id": 5,
+            "object_id": "3",
+            "object_repr": "2024 Ranger\u00ae XLT",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 06:51:52.756126"
+        },
+        {
+            "id": 6,
+            "object_id": "3",
+            "object_repr": "2024 Ranger\u00ae XLT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Car image\", \"Car image2\"]}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 06:54:11.201761"
+        },
+        {
+            "id": 7,
+            "object_id": "4",
+            "object_repr": "Mustang Mach-E\u00ae",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:00:11.620207"
+        },
+        {
+            "id": 8,
+            "object_id": "5",
+            "object_repr": "2024 TRANSIT\u00ae PASSENGER VAN XLT",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:05:24.101013"
+        },
+        {
+            "id": 9,
+            "object_id": "6",
+            "object_repr": "Audi A7",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:09:03.236304"
+        },
+        {
+            "id": 10,
+            "object_id": "7",
+            "object_repr": "Audi A4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:12:15.870014"
+        },
+        {
+            "id": 11,
+            "object_id": "8",
+            "object_repr": "Audi R8 V10 plus",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:18:10.093929"
+        },
+        {
+            "id": 12,
+            "object_id": "9",
+            "object_repr": "Audi Q8",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:22:40.063942"
+        },
+        {
+            "id": 13,
+            "object_id": "10",
+            "object_repr": "RAV4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:34:19.869345"
+        },
+        {
+            "id": 14,
+            "object_id": "11",
+            "object_repr": "Lexus LX 570",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:39:29.965841"
+        },
+        {
+            "id": 15,
+            "object_id": "12",
+            "object_repr": "Toyota Corolla XSE",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:45:16.230392"
+        },
+        {
+            "id": 16,
+            "object_id": "13",
+            "object_repr": "Toyota Land cruiser",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:50:06.593072"
+        },
+        {
+            "id": 17,
+            "object_id": "14",
+            "object_repr": "Mercedes Benz C-200",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 07:54:25.739781"
+        },
+        {
+            "id": 18,
+            "object_id": "15",
+            "object_repr": "Mercedes-Benz GL600",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:00:42.778102"
+        },
+        {
+            "id": 19,
+            "object_id": "16",
+            "object_repr": "BMW 1 Series",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:07:38.352305"
+        },
+        {
+            "id": 20,
+            "object_id": "17",
+            "object_repr": "BMW X3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:11:28.812177"
+        },
+        {
+            "id": 21,
+            "object_id": "18",
+            "object_repr": "BMW i4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:15:48.868547"
+        },
+        {
+            "id": 22,
+            "object_id": "19",
+            "object_repr": "BMW M5",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:22:06.970304"
+        },
+        {
+            "id": 23,
+            "object_id": "20",
+            "object_repr": "Subaru Forester",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:25:49.722880"
+        },
+        {
+            "id": 24,
+            "object_id": "21",
+            "object_repr": "Subaru Impleza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:29:04.058089"
+        },
+        {
+            "id": 25,
+            "object_id": "22",
+            "object_repr": "Subaru BRZ",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:32:27.739590"
+        },
+        {
+            "id": 26,
+            "object_id": "23",
+            "object_repr": "Subaru Sambar",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:35:22.271087"
+        },
+        {
+            "id": 27,
+            "object_id": "24",
+            "object_repr": "Nissan Altima",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:40:57.127912"
+        },
+        {
+            "id": 28,
+            "object_id": "25",
+            "object_repr": "Nissan Pathfinder",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:44:34.455967"
+        },
+        {
+            "id": 29,
+            "object_id": "26",
+            "object_repr": "Nahi Frontier",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:47:49.295628"
+        },
+        {
+            "id": 30,
+            "object_id": "27",
+            "object_repr": "Nissan 370Z",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:51:37.997364"
+        },
+        {
+            "id": 31,
+            "object_id": "28",
+            "object_repr": "Nissan NV200",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:54:48.829802"
+        },
+        {
+            "id": 32,
+            "object_id": "29",
+            "object_repr": "Isuzu MU-X",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 08:58:38.038763"
+        },
+        {
+            "id": 33,
+            "object_id": "30",
+            "object_repr": "Isuzu D- Max",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:02:20.542938"
+        },
+        {
+            "id": 34,
+            "object_id": "31",
+            "object_repr": "Lorries",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:07:32.300782"
+        },
+        {
+            "id": 35,
+            "object_id": "32",
+            "object_repr": "Isuzu Elf trucks",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:11:07.512576"
+        },
+        {
+            "id": 36,
+            "object_id": "1",
+            "object_repr": "New car windscreen",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:11:39.016319"
+        },
+        {
+            "id": 37,
+            "object_id": "2",
+            "object_repr": "Dorman 939-259 15 x 5 In. Steel Wheel Compatible with Select Toyota Models, Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:28:35.505006"
+        },
+        {
+            "id": 38,
+            "object_id": "3",
+            "object_repr": "Rain-X 600001 Windshield Repair Kit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:31:28.499415"
+        },
+        {
+            "id": 39,
+            "object_id": "4",
+            "object_repr": "Ultra1Plus AW ISO 32 Hydraulic Oil - 5 Gallon - AW32 Hydraulic Fluid",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:33:33.437399"
+        },
+        {
+            "id": 40,
+            "object_id": "5",
+            "object_repr": "Dorman Steel Road Wheel",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:36:35.454251"
+        },
+        {
+            "id": 41,
+            "object_id": "6",
+            "object_repr": "OE Wheels LLC 22 inch Rim Fits 6x139.7 Silverado Suburban",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:40:23.009233"
+        },
+        {
+            "id": 42,
+            "object_id": "7",
+            "object_repr": "Combination Ended Spanner kits",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:44:28.284369"
+        },
+        {
+            "id": 43,
+            "object_id": "8",
+            "object_repr": "Prostormer Flex Head Ratcheting Wrench Set",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:52:45.611546"
+        },
+        {
+            "id": 44,
+            "object_id": "9",
+            "object_repr": "150 PCS Mechanical Tool Socket",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:55:48.702451"
+        },
+        {
+            "id": 45,
+            "object_id": "10",
+            "object_repr": "Potreba inner tube",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 09:59:02.184515"
+        },
+        {
+            "id": 46,
+            "object_id": "11",
+            "object_repr": "AUTOSAVER88 Tow Mirrors Compatible",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:03:19.241119"
+        },
+        {
+            "id": 47,
+            "object_id": "2",
+            "object_repr": "Dorman 939-259 15 x 5 In. Steel Wheel Compatible with Select Toyota Models, Black",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:05:06.432041"
+        },
+        {
+            "id": 48,
+            "object_id": "12",
+            "object_repr": "Centric Wheel Spacer Set",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 9,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:08:51.248474"
+        },
+        {
+            "id": 49,
+            "object_id": "1",
+            "object_repr": "Cornerstone Autorepair",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:11:18.974961"
+        },
+        {
+            "id": 50,
+            "object_id": "2",
+            "object_repr": "Peek Perfomance Garage",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:12:04.691273"
+        },
+        {
+            "id": 51,
+            "object_id": "3",
+            "object_repr": "The Mechanic's Sanctuary",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:12:34.008425"
+        },
+        {
+            "id": 52,
+            "object_id": "4",
+            "object_repr": "The Steel Stable",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:16:07.497126"
+        },
+        {
+            "id": 53,
+            "object_id": "5",
+            "object_repr": "Move with us",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:17:41.016843"
+        },
+        {
+            "id": 54,
+            "object_id": "6",
+            "object_repr": "Fixit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:18:49.124235"
+        },
+        {
+            "id": 55,
+            "object_id": "7",
+            "object_repr": "Tire & Tread Tavern",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:20:10.854470"
+        },
+        {
+            "id": 56,
+            "object_id": "8",
+            "object_repr": "Brake Point Garage",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:21:48.675979"
+        },
+        {
+            "id": 57,
+            "object_id": "9",
+            "object_repr": "Car Tune-Up Cove",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 13,
+            "user_id": 3,
+            "action_time": "2024-12-10 10:22:59.697518"
+        },
+        {
+            "id": 58,
+            "object_id": "2",
+            "object_repr": "Message from James",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 10,
+            "user_id": 3,
+            "action_time": "2024-12-10 14:33:00.896601"
+        },
+        {
+            "id": 59,
+            "object_id": "1",
+            "object_repr": "Message from James",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 10,
+            "user_id": 3,
+            "action_time": "2024-12-10 14:33:00.896601"
+        },
+        {
+            "id": 60,
+            "object_id": "2",
+            "object_repr": "ComplainMessage object (2)",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 12,
+            "user_id": 3,
+            "action_time": "2024-12-10 14:33:12.285268"
+        },
+        {
+            "id": 61,
+            "object_id": "1",
+            "object_repr": "ComplainMessage object (1)",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 12,
+            "user_id": 3,
+            "action_time": "2024-12-10 14:33:12.285268"
+        },
+        {
+            "id": 62,
+            "object_id": "32",
+            "object_repr": "Isuzu Elf trucks",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 11,
+            "user_id": 3,
+            "action_time": "2024-12-11 06:53:45.712576"
+        },
+        {
+            "id": 63,
+            "object_id": "4",
+            "object_repr": "Message from James",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 10,
+            "user_id": 3,
+            "action_time": "2024-12-11 09:46:50.313917"
+        },
+        {
+            "id": 64,
+            "object_id": "3",
+            "object_repr": "ComplainMessage object (3)",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 12,
+            "user_id": 3,
+            "action_time": "2024-12-11 09:47:22.027034"
+        },
+        {
+            "id": 65,
+            "object_id": "6",
+            "object_repr": "james",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 6,
+            "user_id": 3,
+            "action_time": "2024-12-18 09:45:24.184566"
+        }
+    ],
+    "adverts_adminmessage": [
+        {
+            "id": 3,
+            "name": "James",
+            "email": "gachombajames7@gmail.com",
+            "message": "Hello may I get some details on the ford ranger raptor please?",
+            "sent_at": "2024-12-10 14:31:47.150360"
+        },
+        {
+            "id": 5,
+            "name": "James",
+            "email": "gachombajames7@gmail.com",
+            "message": "hello",
+            "sent_at": "2024-12-11 06:47:08.406464"
+        },
+        {
+            "id": 6,
+            "name": "James",
+            "email": "gachombajames7@gmail.com",
+            "message": "hello",
+            "sent_at": "2024-12-11 07:00:36.965624"
+        },
+        {
+            "id": 7,
+            "name": "James",
+            "email": "gachombajames7@gmail.com",
+            "message": "Hello gmotions. Am literally crazy about this car by the name Ford Ranger Raptor. Would you mind if I got more details on it?",
+            "sent_at": "2024-12-11 09:17:35.778145"
+        },
+        {
+            "id": 8,
+            "name": "James",
+            "email": "gachombajames7@gmail.com",
+            "message": "Hello. May I get more info on this Ranger Raptor?",
+            "sent_at": "2024-12-11 09:26:31.410389"
+        }
+    ],
+    "adverts_cars": [
+        {
+            "id": 1,
+            "car_name": "FORD RANGER",
+            "car_make": "Ford",
+            "car_model": "Ranger",
+            "property_1": "2.7L EcoBoost\u00ae engine",
+            "property_2": "3.0L EcoBoost\u00ae engine",
+            "description": "Performance\r\nCapability in Command\r\nThe new 2024 Ranger\u00ae pickup offers even more power to choose from with a new, optional 2.7L EcoBoost\u00ae engine and a 3.0L EcoBoost\u00ae engine exclusive to the new Ranger\u00ae Raptor\u00ae. Let your Ranger\u00ae truck take you beyond where the pavement ends.\r\nAlways consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.\r\nA 2024 Ford Ranger\u00ae truck in Iconic Silver is being driven off-road on a sand dune in a scenic location\r\nEngines\r\n\r\n\r\n\r\n\r\nOff-Road. Game On.\r\nA 2024 Ford Ranger\u00ae truck accelerates up a hill on a sunny afternoon\r\nFX4\u00ae Off-Road Package\r\nConquer challenging terrain with the FX4\u00ae Off-Road Package. Off-Road Tuned Shocks, Exposed Steel Bash Plate and an Electronic-Locking Rear Differential are just part of the package. The Package-Specific Selectable Drive Modes (Mud/Ruts, Sand) and Ford Trail Control\u2122 pair with an Off-Road Screen in the Center Stack that displays pitch, roll and steering angle data at a glance.\r\nOptional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.\r\nA 2024 Ford Ranger\u00ae is parked on a dirt road in a scenic location near a lake with the sun behind it\r\nIncreased Wheelbase\r\nThe 2024 Ranger\u00ae truck wheelbase has been boosted, increasing your truck\u2019s approach angle by approximately two inches.\r\nAlways consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.\r\nA 2024 Ford Ranger\u00ae truck in Oxford White is being driven on rocky terrain\r\nPremium Shocks and Suspension\r\nRanger\u00ae with the available FX4\u00ae Off-Road Package delivers a smoother, more stable ride thanks to Outboard mounted shocks and an Independent Front Suspension.\r\nOptional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.\r\nA 2024 Ford Ranger\u00ae is being driven on a dirt road in a scenic location\r\nIncreased Track Width\r\nRanger\u00ae with the available FX4\u00ae Off-Road Package offers an expanded width for improved stability.\r\nOptional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.\r\nRanger\u00ae Raptor\u00ae\r\nA 2024 Ford Ranger\u00ae Raptor\u00ae in Shelter Green is being driven on sand dunes\r\nThe Off-Road Warrior\r\nThe 2024 Ranger\u00ae Raptor\u00ae blazes its own trail.\r\nLED Tail Lamps\r\nFlared Fenders\r\nStand-Out Style\r\nA 2024 Ford Ranger\u00ae Raptor\u00ae is parked with a close-up of the LED Taillamps lit up\r\nStriking Tail Lighting\r\nThe unmistakable design of the Ranger\u00ae Raptor\u00ae LED taillamps combines impact with functionality.\r\nThe suspension of a 2024 Ford Ranger\u00ae Raptor\u00ae articulates as the truck crawls across uneven ground\r\nFOX\u2122 Racing Shocks with Live Valve Technology\r\nActive damping and automatic adjustment absorb the shock when your terrain conditions take a turn. *\r\nClose-up of a 2024 Ford Ranger\u00ae Raptor\u00ae steering wheel and dash display\r\nFull Time 4x4 System\r\nPerformance on challenging terrain is optimized, thanks to an electronically controlled two-speed transfer case.\r\nA 2024 Ford Ranger\u00ae Raptor\u00ae is being driven off-road with the mountains in the background\r\nOff-Road on a Whole New Level\r\nRanger\u00ae Raptor\u00ae boasts increased ground clearance of 10.7 inches. *",
+            "short_description": "Capability in Command The new 2024 Ranger\u00ae pickup offers even more power to choose from with a new, optional 2.7L EcoBoost\u00ae engine and a 3.0L EcoBoost\u00ae engine exclusive to the new Ranger\u00ae Raptor\u00ae. Let your Ranger\u00ae truck take you beyond where the pavement ends. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear.",
+            "car_image": "cars/ranger1_4Z7E7Gi.PNG",
+            "car_image2": "cars/ranger_Gwzk3nG.PNG"
+        },
+        {
+            "id": 2,
+            "car_name": "NEW FORD RANGER RAPTOR",
+            "car_make": "Ford",
+            "car_model": "Ranger Raptor",
+            "property_1": "Power (kW)  110 - 154",
+            "property_2": "Torque (Nm)  598",
+            "description": "Performance Capability in Command The new 2024 Ranger\u00ae pickup offers even more power to choose from with a new, optional 2.7L EcoBoost\u00ae engine and a 3.0L EcoBoost\u00ae engine exclusive to the new Ranger\u00ae Raptor\u00ae. Let your Ranger\u00ae truck take you beyond where the pavement ends. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear. A 2024 Ford Ranger\u00ae truck in Iconic Silver is being driven off-road on a sand dune in a scenic location Engines Off-Road. Game On. A 2024 Ford Ranger\u00ae truck accelerates up a hill on a sunny afternoon FX4\u00ae Off-Road Package Conquer challenging terrain with the FX4\u00ae Off-Road Package. Off-Road Tuned Shocks, Exposed Steel Bash Plate and an Electronic-Locking Rear Differential are just part of the package. The Package-Specific Selectable Drive Modes (Mud/Ruts, Sand) and Ford Trail Control\u2122 pair with an Off-Road Screen in the Center Stack that displays pitch, roll and steering angle data at a glance. Optional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear. A 2024 Ford Ranger\u00ae is parked on a dirt road in a scenic location near a lake with the sun behind it Increased Wheelbase The 2024 Ranger\u00ae truck wheelbase has been boosted, increasing your truck\u2019s approach angle by approximately two inches. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear. A 2024 Ford Ranger\u00ae truck in Oxford White is being driven on rocky terrain Premium Shocks and Suspension Ranger\u00ae with the available FX4\u00ae Off-Road Package delivers a smoother, more stable ride thanks to Outboard mounted shocks and an Independent Front Suspension. Optional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear. A 2024 Ford Ranger\u00ae is being driven on a dirt road in a scenic location Increased Track Width Ranger\u00ae with the available FX4\u00ae Off-Road Package offers an expanded width for improved stability. Optional equipment shown. Always consult the Owner\u2019s Manual before off-road driving, know your terrain and trail difficulty, and use appropriate safety gear. Ranger\u00ae Raptor\u00ae A 2024 Ford Ranger\u00ae Raptor\u00ae in Shelter Green is being driven on sand dunes The Off-Road Warrior The 2024 Ranger\u00ae Raptor\u00ae blazes its own trail. LED Tail Lamps Flared Fenders Stand-Out Style A 2024 Ford Ranger\u00ae Raptor\u00ae is parked with a close-up of the LED Taillamps lit up Striking Tail Lighting The unmistakable design of the Ranger\u00ae Raptor\u00ae LED taillamps combines impact with functionality. The suspension of a 2024 Ford Ranger\u00ae Raptor\u00ae articulates as the truck crawls across uneven ground FOX\u2122 Racing Shocks with Live Valve Technology Active damping and automatic adjustment absorb the shock when your terrain conditions take a turn. * Close-up of a 2024 Ford Ranger\u00ae Raptor\u00ae steering wheel and dash display Full Time 4x4 System Performance on challenging terrain is optimized, thanks to an electronically controlled two-speed transfer case. A 2024 Ford Ranger\u00ae Raptor\u00ae is being driven off-road with the mountains in the background Off-Road on a Whole New Level Ranger\u00ae Raptor\u00ae boasts increased ground clearance of 10.7 inches. *",
+            "short_description": "A car that is always available for use made only for you.A 2024 Ford Ranger\u00ae truck accelerates up a hill on a sunny afternoon FX4\u00ae Off-Road Package Conquer challenging terrain with the FX4\u00ae Off-Road Package. Off-Road Tuned Shocks, Exposed Steel Bash Plate and an Electronic-Locking Rear Differential are just part of the package.",
+            "car_image": "cars/raptor1_QqzqIcK.PNG",
+            "car_image2": "cars/raptor2_8CAOUOP.PNG"
+        },
+        {
+            "id": 3,
+            "car_name": "2024 Ranger\u00ae XLT",
+            "car_make": "Ford",
+            "car_model": "Ranger",
+            "property_1": "2.3L EcoBoost\u00ae Engine with Auto Start-Stop Technol",
+            "property_2": "2.7L EcoBoost\u00ae Engine with Auto Start-Stop Technol",
+            "description": "Power\r\nStandard\r\n2.3L EcoBoost\u00ae Engine with Auto Start-Stop Technology\r\n10-speed SelectShift\u00ae automatic transmission\r\nFuel Tank - 18-gallon\r\nOptional\r\n2.7L EcoBoost\u00ae Engine with Auto Start-Stop Technology\r\nHandling\r\nStandard\r\n4x2\r\nElectronic-Shift-On-the-Fly (ESOF) (4x4 only)\r\nAxle, Front - Independent Front Suspension\r\nBrakes - 4-Wheel Disc with ABS\r\nElectronic Power-Assist Steering (EPAS)\r\nFully-boxed, high-strength steel frame\r\nSuspension - Front - Independent short long arm and solid stabilizer bar\r\nShock Absorbers, Front - Gas\r\nShock Absorbers, Rear - Gas\r\nSprings, Front - Coil\r\nSprings, Rear - Leaf, two-stage linear rate\r\nTrailer Sway Control\r\nTrailer Towing - 4-pin wiring, ball mounting provisions in rear bumper\r\nOptional\r\n4x4\r\nEngine Block Heater\r\nElectronic-Locking Rear Differential\r\nTerrain Management System\u2122\r\nFord Trail Control\u00ae\r\nWheels & Tires\r\nStandard\r\n17\" Gray-Painted Aluminum Wheel (XLT Sport Pkg)\r\n255/70R17 A/T BSW\r\nOptional\r\n18\" Chrome-Like PVD Wheel\r\nLT 255/70R17 A/T OWL\r\n18\" Off-Road OWL (FX4 Off-Road Pkg)\r\n\r\nSafety\r\nSafety\r\nStandard\r\nDigital Rear View Camera\r\nAdvanceTrac\u00ae with RSC\u00ae (Roll Stability Control\u2122)\r\nAirbags - Front, Driver and passenger\r\nAirbags - Front, Driver and passenger seat-mounted side\r\nAirbags - Safety Canopy\u00ae side curtains\r\nCurve Control\r\nFour-Wheel Anti-Lock Brakes\r\nChild Seat Tether Anchors\r\nBelt-Minder\u00ae (safety belt reminder)\r\nChild-proof rear-door-locks\r\nTire Pressure Monitoring System (TPMS)\r\nOptional\r\n360-Degree Camera\r\nSecurity\r\nStandard\r\nPerimeter anti-theft alarm\r\nRemote Keyless Entry System\r\nRemote Start System\r\nSecuriLock\u00ae passive anti-theft system\r\nSOS Post-Crash Alert System\u2122",
+            "short_description": "Autolamp - automatic on/off headlamps Front Fascia - Gray Painted Bumper, Rear - Steel Bumper, Rear - Gray Painted Cargo lamp, integrated with center high-mounted stop lamp (CHMSL) - Halogen Daytime Running Lamps - LED Headlamps - LED Reflector Fog lamps - LED Grille - Gray Painted Center Bar and Surround Tow hooks - Front, two (4x4) Hooks - Cargo box tie-down (6) Handles, door - Black Exhaust - S",
+            "car_image": "cars/ranger_xlt.PNG",
+            "car_image2": "cars/rangerxlt2.PNG"
+        },
+        {
+            "id": 4,
+            "car_name": "Mustang Mach-E\u00ae",
+            "car_make": "Ford",
+            "car_model": "Mach -E rally",
+            "property_1": "320 miles  Premium Model EPA-Estimated range with",
+            "property_2": "powertrain to deliver 0-60 in as little as 3.4 sec",
+            "description": "Made to Thrill\r\nExperience exhilarating, pinned-to-the-back-of-your-seat performance and the inspiring freedom of the open road.\r\n2024 Ford Mustang Mach-E\u00ae bering driven down on the highway\r\nThe freedom to never having to choose between what you want, and what you need.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n \r\n\r\nAvailable Mustang Mach-E GT\u2122 Performance Upgrade\r\n\r\nDrive Type: eAWD\r\n\r\nEPA-Est. Range: 280 miles*\r\n\r\n0\u201360 mph: 3.3 seconds**\u2020\r\n\r\nPower: 480 hp70\r\n\r\nTorque: 700 lb.-ft.70\r\n\r\n \r\n\r\nStandard on the Mustang Mach-E\u00ae Rally: 265 Miles\u2020\u2020 EPA-Est. Range with 0-60 mph in 3.4 seconds**.\r\n\r\nOne for the Road. One for the Trail.\r\nUrban avenues won't see it coming and the road less traveled will hardly hear it.\r\nMustang Mach-E\u00ae GT\r\nMustang Mach-E Rally\r\n2024 Ford Mustang Mach-E\u00ae Rally model parked in the wood\r\nFun Starts Where the Road Ends\r\nBuilt off the GT platform, the Mustang Mach-E Rally features a Rallycross-tuned MagneRide\u00ae Damping System and an enhanced powertrain to deliver 0-60 in as little as 3.4 seconds*. Rally inspired features include Oxford White 19-inch alloy wheels, dramatic rear spoiler, underbody shielding and purposeful front fascia that houses LED fog lamps.\r\nDrive Modes for Any Mood\r\nTailor your driving experience using Drive Modes engineered to match whatever attitude you're feeling.\r\nSportier Drive Modes\r\nEither Horse Is a Winning Bet\r\nTwo 2024 Ford Mustang Mach-E\u00ae vehicles being driven side by side on the highway\r\nVehicle Details\r\nRear-Wheel Drive\r\nImpressive in its pursuit of power and performance, RWD delivers amazing acceleration and nimble handling on even the most winding roads. Standard on Select and Premium models.\r\nAll-Wheel Drive\r\nExperience optimal performance with jaw-dropping acceleration and precision handling delivered from the addition of a Front Electric eMotor in this Dual eMotor eAWD system.",
+            "short_description": "Fun Starts Where the Road Ends Built off the GT platform, the Mustang Mach-E Rally features a Rallycross-tuned MagneRide\u00ae Damping System and an enhanced powertrain to deliver 0-60 in as little as 3.4 seconds*. Rally inspired features include Oxford White 19-inch alloy wheels, dramatic rear spoiler, underbody shielding and purposeful front fascia that houses LED fog lamps.",
+            "car_image": "cars/march.PNG",
+            "car_image2": "cars/march4_fllwzoo.PNG"
+        },
+        {
+            "id": 5,
+            "car_name": "2024 TRANSIT\u00ae PASSENGER VAN XLT",
+            "car_make": "Ford",
+            "car_model": "Transit series",
+            "property_1": "Electric Power-Assisted Steering (EPAS",
+            "property_2": "Parking Brake - Mechanical (9,950lb GVWR DRW confi",
+            "description": "Power & Handling\r\nHandling\r\nStandard\r\nSteering - Power Rack and Pinion\r\nElectric Power-Assisted Steering (EPAS)\r\nSteering Wheel, - Tilt & Telescopic Column Polyurethane 4-Spoke Wheel\r\nParking Brake - Mechanical (9,950lb GVWR DRW configurations only)\r\nSuspension, Front - Independent MacPherson-Strut, Stabilizer Bar\r\nSuspension, Rear - Leaf Springs, Heavy-Duty Gas Shock Absorbers\r\nAdvanceTrac\u00ae With Roll Stability Control\u2122 (RSC\u00ae)\r\nSide-Wind Stabilization\r\nHill Start Assist\r\nParking Brake \u2013 Electric (SRW configurations only)\r\nCruise Control. Includes Adjustable Speed Limiting Device (ASLD)\r\nOptional\r\nEnhanced Active Park Assist\r\nHeavy-Duty Front Axle\r\nTrailer Brake Controller (TBC)\r\nIntelligent All-Wheel Drive\r\nPower\r\nStandard\r\nAlternator \u2013 250 amp (3.5L PFDi V6 and 3.5L EcoBoost\u00ae V6 engines)\r\nAuxiliary Fuel Port\r\n3.5L PFDi V6\r\n10-Speed Automatic Transmission\r\nFuel Tank \u2013 Capless Fuel Fill, 25 Gallons (Midship)\r\nSingle AGM Battery (70 amp-hr)\r\nOptional\r\nAuxiliary Fuse Panel with High Spec Interface Connector\r\n3.5L EcoBoost\u00ae V6\r\nEngine Block Heater (400W Rating)\r\nExtended-Range Fuel Tank - Capless Fuel Fill, 31 Gallons (Midship)\r\nDual AGM Batteries (70 amp-hr each)\r\nWheels & Tires\r\nStandard\r\nTires, 195/75R16C 107/105 R BSW all-season (RWD with Standard Front Axle configurations only)\r\nTires 205/75R16C 113/111 BSW all-season (AWD, 11,000 GVWR or RWD with Heavy-Duty Front Axle configurations only)\r\nTires, 235/65R16 BSW All-Season - (SRW)\r\n16-Inch Steel Wheel With Full Silver Wheel Cover (SRW)\r\n16-Inch Silver Steel Wheel With Exposed Lug Nuts (SRW)\r\n16-Inch Heavy-Duty Silver Steel Wheel with Silver Hubcaps and Exposed Lug Nuts (DRW)\r\nWheels, Full-size Spare Tire and Wheel with 3-Ton Jack\r\nOptional\r\n16-Inch Heavy-Duty Forged Aluminum Wheel (DRW)\r\nSpare Tire and Wheel Delete\r\n16-Inch Silver Aluminum Alloy Wheel (SRW)\r\n16-Inch Black Aluminum Alloy Wheel (SRW)\r\n16-Inch White Steel Wheel With Black Hubcap (SRW)\r\n16-Inch Sparkle Silver Alloy Wheel (SRW)\r\n16-Inch Matte Black Alloy Wheel (SRW)\r\n\r\nSafety\r\nSafety\r\nStandard\r\nTire Pressure Monitoring System (TPMS)\r\nAirbags \u2013 Driver and Passenger\r\nBrakes - 4 Brakes \u2013 4-wheel Anti-lock Disc Brakes\r\nSafety belts - 3-point, all positions\r\nSafety Canopy\u00ae System with Side-Curtain Airbags\r\nSOS Post-Crash Alert System\u2122 (distress call w/airbag deployment when ordered with SYNC)\r\nSecurity\r\nStandard\r\nAuto-locking Drive Away with Crash Unlocking\r\nSecuriLock\u00ae Passive Anti-Theft System (PATS) with engine immobilizer\r\nRear View Camera With Trailer Hitch Assist\r\nOptional\r\nBack Up Alarm\r\nWhite Noise Back Up Alarm",
+            "short_description": "Audio, Antenna - Fender Mounted Front Bumper \u2013 Body Colored. Includes Front Fog Lamps Body Side Moldings \u2013 Carbon Black 50/50 Hinged Rear Door, 180-degree Opening (Regular Length) 50/50 Hinged Rear Door, 253-degree Opening (Long and Extended Length configurations) Sliding Passenger-Side Door Front License Plate Bracket Auto High-Beam Headlamps.",
+            "car_image": "cars/xlt1_bFMOuwP.PNG",
+            "car_image2": "cars/xlt3_MXwxkAv.PNG"
+        },
+        {
+            "id": 6,
+            "car_name": "Audi A7",
+            "car_make": "Audi",
+            "car_model": "A~series",
+            "property_1": "355 horsepower",
+            "property_2": "369 pound-feet of torque",
+            "description": "The Audi A7 is a stylish luxury sedan that combines performance with advanced technology and a comfortable interior. First introduced in 2010, it features a sleek, coupe-like design, a spacious cabin, and a hatchback rear for added practicality.\r\n\r\nKey Features:\r\nEngine Options: The A7 typically offers a range of powerful engines, including turbocharged V6 and V8 options, providing a balance of performance and fuel efficiency.\r\nQuattro All-Wheel Drive: Most A7 models come with Audi's legendary Quattro all-wheel-drive system, enhancing traction and handling.\r\nInterior Quality: The cabin is known for its high-quality materials, luxurious finishes, and advanced technology, including a dual touchscreen interface for infotainment and climate control.\r\nSafety and Driver Assistance: The A7 is equipped with a suite of safety features and driver assistance technology, such as adaptive cruise control, lane departure warning, and automatic emergency braking.\r\nRecent Updates:\r\nThe latest models may include enhanced technology features, improved fuel efficiency, and styling updates. Audi frequently updates its vehicles, so you might find new options or improvements in performance, infotainment systems, and safety features with the recent models.\r\n\r\nAre you interested in a specific year or aspect of the Audi A7, like performance, features, or comparisons with other models?",
+            "short_description": "The Audi A7 is a stylish luxury sedan that combines performance with advanced technology and a comfortable interior. First introduced in 2010, it features a sleek, coupe-like design, a spacious cabin, and a hatchback rear for added practicality.",
+            "car_image": "cars/A7.PNG",
+            "car_image2": "cars/A72.PNG"
+        },
+        {
+            "id": 7,
+            "car_name": "Audi A4",
+            "car_make": "Audi",
+            "car_model": "A~series",
+            "property_1": "Quattro All-Wheel Drive",
+            "property_2": "Powerful V6 configurations",
+            "description": "The Audi A4 is a compact executive car that combines luxury, performance, and advanced technology. It's known for its sophisticated design, comfortable interior, and engaging driving dynamics.\r\n\r\nKey Features:\r\nEngine Options: The A4 typically offers a variety of engines, including turbocharged four-cylinder options that provide a good balance of power and efficiency, as well as more powerful V6 configurations in higher trims like the S4.\r\n\r\nQuattro All-Wheel Drive: Many A4 models come with Audi's Quattro all-wheel-drive system, enhancing stability and traction, especially in adverse weather conditions.\r\n\r\nInterior Quality: The A4 boasts a high-quality, driver-focused interior, featuring premium materials, comfortable seating, and a modern design. The MMI infotainment system includes a touchscreen display, smartphone integration, and available virtual cockpit display.\r\n\r\nSafety and Technology: The A4 is equipped with numerous safety features, including adaptive cruise control, lane departure warning, blind-spot monitoring, and more. Advanced driver assistance systems are available to enhance safety during driving.\r\n\r\nRecent Models:\r\nThe latest models of the A4 (such as the 2023 or 2024 versions) may include updated styling, improved fuel efficiency, and enhancements in technology features, such as upgraded infotainment systems and more robust connectivity options. Additionally, there is an \"Allroad\" variant that offers rugged styling and increased ground clearance.\r\n\r\nIf you have specific questions about the Audi A4, whether it's about a particular year, trim level, performance, or features, feel free to ask!",
+            "short_description": "The Audi A4 is a compact executive car that combines luxury, performance, and advanced technology. It's known for its sophisticated design, comfortable interior, and engaging driving dynamics.",
+            "car_image": "cars/A4_dYqiMvm.PNG",
+            "car_image2": "cars/A4_HCcbi5S.PNG"
+        },
+        {
+            "id": 8,
+            "car_name": "Audi R8 V10 plus",
+            "car_make": "Audi",
+            "car_model": "R8",
+            "property_1": "0-60 mph in about 3 seconds",
+            "property_2": "Quattro All-Wheel Drive",
+            "description": "The Audi R8 is a high-performance sports car known for its stunning design, powerful engines, and impressive handling. Since its debut in 2006, the R8 has established itself as one of the premier vehicles in the supercar segment\r\nKey Features:\r\nEngine Options: The R8 typically offers a choice between a naturally aspirated V10 engine and a V10 Plus version, delivering thrilling performance. The standard V10 produces around 532 horsepower, while the V10 Plus can exceed 600 horsepower, allowing for rapid acceleration and top speeds.\r\n\r\nQuattro All-Wheel Drive: The R8's Quattro all-wheel-drive system enhances traction and stability, which is crucial for handling the car's power effectively, especially in challenging driving conditions.\r\n\r\nDesign and Aerodynamics: The R8 features a bold, aerodynamic design with sharp lines and an aggressive stance. The mid-engine layout contributes to excellent weight distribution and handling dynamics.\r\n\r\nCraftsmanship: The interior is luxurious and driver-focused, featuring high-quality materials, advanced technology, and options for customization. The Virtual Cockpit is a highlight, providing digital displays that can be configured for various needs.\r\n\r\nPerformance: With a lightweight chassis and advanced technology (such as adaptive suspension and dynamic steering), the R8 offers an exhilarating driving experience, whether on the road or the track. It can achieve 0-60 mph in about 3 seconds, depending on the model.\r\n\r\nVariants:\r\nThe R8 lineup includes various versions, such as the R8 Spyder (convertible) and special editions like the R8 GT and R8 LMS (the race variant). Audi has also introduced a fully electric version called the Audi R8 e-tron in some markets.\r\n\r\nRecent Updates:\r\nThe latest iterations focus on enhanced performance, improved technology, and stricter emissions compliance. The model line has seen updates in both design and technology as Audi moves toward electrification, though the V10 engine remains a cornerstone of the R8 experience.\r\n\r\nIf you're interested in more specific aspects, like the latest performance specs, comparison with other supercars, or particular model year details, let us know!",
+            "short_description": "The Audi R8 is a high-performance sports car known for its stunning design, powerful engines, and impressive handling. Since its debut in 2006, the R8 has established itself as one of the premier vehicles in the supercar segment",
+            "car_image": "cars/r8.PNG",
+            "car_image2": "cars/r8_2.PNG"
+        },
+        {
+            "id": 9,
+            "car_name": "Audi Q8",
+            "car_make": "Audi",
+            "car_model": "Q8",
+            "property_1": "Turbocharged V6 engines",
+            "property_2": "Twin-turbo V8 engin",
+            "description": "The Audi Q8 is a luxurious SUV that blends sleek coupe-like styling with the practicality of an SUV. Launched in 2018, the Q8 represents Audi\u2019s flagship in the Q lineup, offering a spacious interior filled with high-end features and advanced technology.\r\nKey Features:\r\nDesign: The Q8 features a bold, aggressive front grille and a sloping roofline that gives it a sporty yet elegant appearance. Its design is characterized by strong lines and a muscular stance.\r\n\r\nEngine Options: The Q8 typically comes with a variety of engine choices, including turbocharged V6 engines that provide a good balance between performance and efficiency. The performance-oriented SQ8 variant includes a twin-turbo V8 engine, delivering significantly higher horsepower and torque.\r\n\r\nQuattro All-Wheel Drive: Like many Audi models, the Q8 is equipped with the Quattro all-wheel-drive system, enhancing traction and stability in various driving conditions.\r\n\r\nInterior Quality: The interior is spacious and luxurious, with top-quality materials and an array of customizable options. It features a dual touchscreen MMI infotainment system that controls everything from navigation to climate control, along with the Audi Virtual Cockpit that displays critical information directly in front of the driver.\r\n\r\nSafety and Driver Assistance: The Q8 is equipped with numerous safety features, including adaptive cruise control, lane-keeping assistance, blind-spot monitoring, and more. Advanced driver assistance systems make it a comfortable and safe option for long drives.\r\n\r\nCargo Space: It offers ample cargo space, especially with the rear seats down, making it practical for family use or road trips.\r\n\r\nVariants:\r\nThe Audi Q8 lineup also includes sporty versions like the SQ8, which offers more power and performance-enhancing features, and the high-performance RS Q8, which is among the fastest SUVs in its class, featuring a twin-turbo V8 engine.\r\n\r\nRecent Updates:\r\nThe 2024 Q8 may include updated technology features, enhancements in infotainment systems, and possibly revised styling. Audi regularly refreshes its models, so it\u2019s worth checking for the latest specifications and options.\r\n\r\nIf you\u2019re looking for specific details, such as comparisons with competitors, features of a particular year, or anything else, feel free to ask!",
+            "short_description": "The Audi Q8 is a luxurious SUV that blends sleek coupe-like styling with the practicality of an SUV. Launched in 2018, the Q8 represents Audi\u2019s flagship in the Q lineup, offering a spacious interior filled with high-end features and advanced technology.",
+            "car_image": "cars/Q82.PNG",
+            "car_image2": "cars/Q8.PNG"
+        },
+        {
+            "id": 10,
+            "car_name": "RAV4",
+            "car_make": "Toyota",
+            "car_model": "RAV4",
+            "property_1": "All-Wheel Drive",
+            "property_2": "Apple CarPlay and Android Auto compatibility",
+            "description": "The Toyota RAV4 is a compact SUV that has been a popular choice for consumers seeking reliability, versatility, and practicality since its introduction in 1994. The RAV4 is known for its spacious interior, comfortable ride, and strong resale value.\r\n\r\nKey Features:\r\nEngine Options: The RAV4 typically offers a range of efficient engines, including a fuel-efficient four-cylinder option and a hybrid model for those looking for better fuel economy. The most recent models feature a 2.5-liter four-cylinder engine that produces around 203 horsepower.\r\n\r\nHybrid and Plug-in Hybrid Options: The RAV4 Hybrid and the RAV4 Prime (plug-in hybrid) provide eco-friendly alternatives, offering excellent fuel efficiency and the ability to drive on electric power alone for short distances.\r\n\r\nInterior Space and Comfort: The RAV4 has a spacious interior with comfortable seating for five, making it a family-friendly option. The cargo area is generous, with versatile split-folding rear seats that expand storage options.\r\n\r\nTechnology: Recent models are equipped with modern technology features, including a standard touchscreen infotainment system with Apple CarPlay and Android Auto compatibility, along with available premium audio systems and navigation.\r\n\r\nSafety Features: The RAV4 comes with Toyota's Safety Sense suite, which includes advanced safety and driver assistance features such as adaptive cruise control, lane departure alert, automatic emergency braking, and blind spot monitoring.\r\n\r\nAll-Wheel Drive: Many RAV4 models offer the option of all-wheel drive, enhancing traction in adverse weather conditions and off-road scenarios.\r\n\r\nRecent Updates:\r\nThe latest RAV4 models (like the 2023 and 2024) have received styling updates, improved technology integration, and enhancements in performance and fuel efficiency. The RAV4 Adventure and TRD Off-Road trims cater to those seeking a more rugged experience with increased off-road capability.\r\n\r\nIf you have specific questions or are interested in a particular model year or feature, feel free to ask!",
+            "short_description": "Introduced in 1994, the RAV4 stands for \"Recreational Active Vehicle with 4-wheel drive,\" and it was one of the first compact crossover SUVs. Over the years, the RAV4 has become one of Toyota's most popular models, known for its reliability, practicality, and versatility.",
+            "car_image": "cars/RAV4.PNG",
+            "car_image2": "cars/RAV42.PNG"
+        },
+        {
+            "id": 11,
+            "car_name": "Lexus LX 570",
+            "car_make": "Lexus",
+            "car_model": "LX570",
+            "property_1": "383 horsepower",
+            "property_2": "403 lb-ft of torque",
+            "description": "The Lexus LX 570(Toyota luxury division) is a full-size luxury SUV that combines rugged performance with high-end amenities. Known for its off-road capability and plush interior, the LX 570 is often favored by those who want a vehicle that can handle both rugged terrain and provide a luxurious ride for everyday use.\r\nKey Features:\r\nEngine: The LX 570 is equipped with a robust 5.7-liter V8 engine, producing around 383 horsepower and 403 lb-ft of torque. This engine provides strong acceleration and towing capability, making it suitable for various needs, including off-road adventures and towing trailers.\r\n\r\nFour-Wheel Drive: The LX 570 comes standard with a full-time four-wheel-drive system, enhancing its off-road prowess. It often includes features like Multi-Terrain Select and Crawl Control, which allow drivers to navigate challenging terrains with ease.\r\n\r\nInterior Luxury: The interior of the LX 570 is crafted with high-quality materials and attention to detail. It typically includes leather upholstery, wood trim, and heated and ventilated seats. The spacious cabin accommodates up to eight passengers, making it a great option for families.\r\n\r\nTechnology: Recent models come equipped with a comprehensive infotainment system featuring a large touchscreen display, navigation, Apple CarPlay, Android Auto, and a premium sound system. Some models offer a dual-screen rear entertainment system for rear-seat passengers.\r\n\r\nSafety Features: The LX 570 is equipped with a variety of advanced safety features, including adaptive cruise control, lane departure warning, blind-spot monitoring, and automated emergency braking. Lexus's Safety System+ adds a layer of driver assistance technologies.\r\n\r\nCargo Space: The LX 570 offers ample cargo space, especially with the third-row seats folded down. This makes it practical for trips and everyday use, despite its size.\r\n\r\nRecent Updates:\r\nAs of 2021, the Lexus LX 570 has been somewhat stagnant on the market with limited updates, as the model is due for a redesign soon. The latest models have focused on maintaining luxury features and performance capabilities but may lack the latest infotainment improvements seen in other vehicles.\r\n\r\nConclusion:\r\nOverall, the Lexus LX 570 is an excellent choice for those looking for a luxurious SUV that can handle off-road adventures while maintaining a premium experience inside. If you have specific questions about particular features, year models, or comparisons with other luxury SUVs, feel free to ask!",
+            "short_description": "The Lexus LX 570 is a full-size luxury SUV that combines rugged performance with high-end amenities. Known for its off-road capability and plush interior, the LX 570 is often favored by those who want a vehicle that can handle both rugged terrain and provide a luxurious ride for everyday use.",
+            "car_image": "cars/lx.PNG",
+            "car_image2": "cars/lx2.PNG"
+        },
+        {
+            "id": 12,
+            "car_name": "Toyota Corolla XSE",
+            "car_make": "Toyota",
+            "car_model": "Corolla",
+            "property_1": "2.0-liter four-cylinder engine",
+            "property_2": "169 horsepower and 151 lb-ft of torque",
+            "description": "The Toyota Corolla XSE is a sporty and well-equipped trim of the Corolla, a compact sedan known for its reliability, fuel efficiency, and practical design. The XSE trim adds a bit more flair and features compared to other Corolla variants.\r\n\r\nKey Features:\r\nEngine Options: The Corolla XSE typically comes with a 2.0-liter four-cylinder engine that produces around 169 horsepower and 151 lb-ft of torque. This engine offers a good balance of performance and fuel economy, achieving approximately 30 mpg in the city and 38 mpg on the highway.\r\n\r\nTransmission: The XSE is usually paired with a continuously variable transmission (CVT), which helps improve fuel efficiency and provides a smooth driving experience.\r\n\r\nSporty Design: The XSE trim features a more aggressive exterior design with sportier styling elements such as a unique front grille, LED headlights, 18-inch alloy wheels, and a rear spoiler. The overall look is more upscale compared to lower trims.\r\n\r\nInterior Comfort and Technology: Inside, the XSE offers a modern cabin with quality materials, a 7-inch touchscreen infotainment system (or larger in some recent models), and standard features like Apple CarPlay and Android Auto compatibility. Enjoyable elements include a premium audio system, leatherette seats, and heated front seats.\r\n\r\nSafety Features: The Corolla XSE comes standard with Toyota Safety Sense, which includes features like adaptive cruise control, lane departure alert, automatic emergency braking, and pedestrian detection. These features help enhance safety and provide peace of mind for drivers.\r\n\r\nDriver-Assistance Features: Advanced driver-assistance features are available, enhancing convenience and safety for everyday driving.\r\n\r\n2023 and 2024 Updates:\r\nThe most recent models may include updated technology features, improved fuel efficiency, and potential styling changes. The Corolla lineup is generally known for its solid build and long-term reliability, making it a great choice for those seeking a dependable daily driver.\r\n\r\nIf you have specific questions about features, performance, or comparisons with other models, feel free to ask!",
+            "short_description": "The Toyota Corolla XSE is a sporty and well-equipped trim of the Corolla, a compact sedan known for its reliability, fuel efficiency, and practical design. The XSE trim adds a bit more flair and features compared to other Corolla variants.",
+            "car_image": "cars/TSXE.PNG",
+            "car_image2": "cars/TXE2.PNG"
+        },
+        {
+            "id": 13,
+            "car_name": "Toyota Land cruiser",
+            "car_make": "Toyota",
+            "car_model": "Land Cruiser",
+            "property_1": "Powerful 3.4-liter twin-turbo V6 engine",
+            "property_2": "409 horsepower and 479 lb-ft of torque",
+            "description": "The Toyota Land Cruiser is a legendary full-size SUV known for its rugged durability, off-road prowess, and luxurious features. With a history spanning over 60 years, the Land Cruiser has built a reputation as a reliable vehicle capable of tackling challenging terrains while providing a comfortable ride.\r\n\r\nKey Features:\r\nEngine Options: The current model typically features a powerful 3.4-liter twin-turbo V6 engine that produces around 409 horsepower and 479 lb-ft of torque. This engine replaces the older V8 option and offers improved efficiency along with strong towing capability.\r\n\r\nOff-Road Capability: The Land Cruiser is equipped with Toyota's legendary Four-Wheel Drive system and features like Multi-Terrain Select, Crawl Control, and Locking Center Differential, making it exceptionally capable in off-road situations.\r\n\r\nInterior Comfort and Luxury: The Land Cruiser offers a luxurious and spacious interior with high-quality materials and seating for up to eight passengers. Features like leather upholstery, heated and ventilated seats, and a premium audio system contribute to a more refined driving experience.\r\n\r\nTechnology: Recent models come equipped with an advanced infotainment system featuring a large touchscreen display, multiple USB ports, Bluetooth connectivity, Apple CarPlay, and Android Auto compatibility. A robust navigation system and rear-seat entertainment options are often available.\r\n\r\nSafety Features: The Land Cruiser is loaded with safety technologies, including adaptive cruise control, lane departure warning, blind-spot monitoring, and automated emergency braking, all included in Toyota's Safety Sense suite.\r\n\r\nCargo Space: With the third row folded down, the Land Cruiser offers ample cargo space for gear and luggage, making it practical for family trips and off-road adventures.\r\n\r\nRecent Updates:\r\nAs of 2022, Toyota has released a redesigned Land Cruiser (the 300 Series) in many markets, featuring modern aesthetics, advanced technology, and substantial enhancements in performance and efficiency. However, in the U.S. market, the Land Cruiser has been discontinued as of 2021, with the Toyota Sequoia taking its place in the lineup as the full-size SUV offering.\r\n\r\nConclusion:\r\nThe Toyota Land Cruiser remains a top choice for those who need a rugged, reliable SUV with luxury features and off-road capabilities. Its blend of technology, comfort, and durability makes it ideal for both daily driving and outdoor adventures. If you\u2019re interested in specific details, such as comparisons with other SUVs or features from particular model years, just let us know!",
+            "short_description": "The Toyota Land Cruiser is a legendary full-size SUV known for its rugged durability, off-road prowess, and luxurious features. With a history spanning over 60 years, the Land Cruiser has built a reputation as a reliable vehicle capable of tackling challenging terrains while providing a comfortable ride.",
+            "car_image": "cars/land_cruiseer.PNG",
+            "car_image2": "cars/land_cruiser2.PNG"
+        },
+        {
+            "id": 14,
+            "car_name": "Mercedes Benz C-200",
+            "car_make": "Mercedes Benz",
+            "car_model": "C-Class",
+            "property_1": "Turbocharged 2.0-liter four-cylinder engine",
+            "property_2": "150 to 180 horsepower",
+            "description": "The Mercedes-Benz C200 is part of the C-Class lineup, a range of compact executive cars that blend luxury with performance. The C200 serves as one of the entry-level models within the C-Class series, offering a combination of style, technology, and driving dynamics.\r\n\r\nKey Features:\r\nEngine: The C200 typically features a turbocharged 2.0-liter four-cylinder engine, producing around 150 to 180 horsepower, depending on the model year and market. This engine is designed to provide a smooth and responsive driving experience, along with good fuel efficiency.\r\n\r\nTransmission: It is usually paired with a 9-speed automatic transmission (9G-TRONIC), which helps deliver seamless shifts and enhances overall driving comfort.\r\n\r\nInterior Quality: The C200 is known for its high-quality interior, featuring luxurious materials and a driver-focused layout. Standard features often include MB-Tex upholstery, adjustable seats, and advanced multimedia options.\r\n\r\nTechnology: Recent models come equipped with the latest MBUX (Mercedes-Benz User Experience) infotainment system, including a large touchscreen display, voice control, smartphone integration (Apple CarPlay and Android Auto), and available navigation.\r\n\r\nSafety Features: The C200 is equipped with numerous safety and driver-assistance features, such as active brake assist, attention assist, blind-spot monitoring, and multiple airbags, aiming to provide enhanced safety for occupants.\r\n\r\nDriving Dynamics: The C-Class is known for its balanced handling and comfortable ride. The C200\u2019s combination of a lightweight structure and advanced suspension contributes to a sporty yet refined driving experience.\r\n\r\nVariants:\r\nThe C200 is often available in different body styles, including sedan, coupe, and convertible. The AMG Line and various packages can also add sporty styling cues and performance enhancements.\r\n\r\nRecent Updates:\r\nIn the latest iterations (such as the 2023 model year), the C-Class has received updates in terms of design, technology, and efficiency. The introduction of hybrid versions in some markets reflects a shift toward more environmentally friendly options.\r\n\r\nIf you have specific questions about the C200, such as features of a particular model year, comparisons with other models, or anything else, feel free to ask!",
+            "short_description": "The Mercedes-Benz C200 is part of the C-Class lineup, a range of compact executive cars that blend luxury with performance. The C200 serves as one of the entry-level models within the C-Class series, offering a combination of style, technology, and driving dynamics.",
+            "car_image": "cars/C200.PNG",
+            "car_image2": "cars/c2002.PNG"
+        },
+        {
+            "id": 15,
+            "car_name": "Mercedes-Benz GL600",
+            "car_make": "Mercedes Benz",
+            "car_model": "GL-Class",
+            "property_1": "Powerful 4.7-liter V8 engine",
+            "property_2": "455 horsepower and 516 lb-ft of torque",
+            "description": "The Mercedes-Benz GL600 refers to a variant of the GL-Class, which is a full-size luxury SUV. However, the GL-Class itself has been replaced by the Mercedes-Benz GLS-Class in more recent years. The GL600 is often associated with high-end trim levels that provide a blend of luxury, performance, and advanced technology.\r\n\r\nKey Features of the GL600:\r\nEngine: The GL600 typically comes with a powerful 4.7-liter V8 engine that produces around 455 horsepower and 516 lb-ft of torque. This robust engine provides impressive acceleration and towing capabilities.\r\n\r\nFour-Wheel Drive: The GL600 is equipped with Mercedes-Benz's 4MATIC all-wheel-drive system, enhancing traction and stability on various terrains, making it suitable for both urban settings and off-road adventures.\r\n\r\nInterior Luxury: Inside, the GL600 boasts a spacious and opulent interior, featuring high-quality materials, leather upholstery, and a host of luxury amenities. The cabin is designed to be comfortable for all passengers, with generous legroom and headroom.\r\n\r\nTechnology: The model is equipped with advanced technology features, including a sophisticated infotainment system (often featuring a large central display), Bluetooth connectivity, navigation, and high-quality audio systems.\r\n\r\nSafety Features: Mercedes-Benz vehicles typically come loaded with safety features, and the GL600 is no exception. It includes numerous driver-assistance technologies, such as adaptive cruise control, lane-keeping assistance, blind-spot monitoring, and various airbag systems.\r\n\r\nCargo Space: The GL600 offers significant cargo capacity, especially with the third row of seating folded down, providing ample room for luggage or gear for family trips.\r\n\r\nTransition to GLS-Class:\r\nSince its introduction in 2016, the GLS-Class has taken over the role of the flagship full-size SUV for Mercedes-Benz, incorporating many design and technological advancements over the GL-Class. The GLS models have been designed to include improved aerodynamics, updated powertrains, and enhanced interior technology.\r\n\r\nConclusion:\r\nThe GL600 remains a symbol of luxury and performance within the full-size SUV segment. It offers a high level of comfort and utility, making it suitable for families who require both space and refinement. If you need specific details about the GL600, such as comparisons with the GLS-Class or features from a particular model year, feel free to ask!",
+            "short_description": "The Mercedes-Benz GL600 refers to a variant of the GL-Class, which is a full-size luxury SUV. However, the GL-Class itself has been replaced by the Mercedes-Benz GLS-Class in more recent years. The GL600 is often associated with high-end trim levels that provide a blend of luxury, performance, and advanced technology.",
+            "car_image": "cars/GL2.PNG",
+            "car_image2": "cars/GL.PNG"
+        },
+        {
+            "id": 16,
+            "car_name": "BMW 1 Series",
+            "car_make": "BMW",
+            "car_model": "1 Series",
+            "property_1": "2.0-liter turbocharged four-cylinder engine",
+            "property_2": "302 horsepower and is paired with an 8-speed autom",
+            "description": "The BMW 1 Series is a compact car that has evolved significantly since its initial launch in 2004. Known for its sporty performance, premium features, and dynamic handling, the 1 Series is designed for those looking for a fun-to-drive vehicle in a smaller package. The most recent generation, the G30, represents a shift to front-wheel drive for most variants, departing from the previous rear-wheel-drive configuration (except for the high-performance M135i).\r\n\r\nKey Features of the BMW 1 Series:\r\nEngine Options: The 1 Series is available with a range of engines, including efficient four-cylinder options and powerful inline-six engines in the sporty M variants. The M135i xDrive, for example, features a 2.0-liter turbocharged four-cylinder engine producing around 302 horsepower and is paired with an 8-speed automatic transmission.\r\n\r\nPerformance: The 1 Series is designed for driving enthusiasts, with responsive steering and a well-tuned suspension that provides a sporty yet comfortable ride. The higher-performance models come with BMW's xDrive all-wheel-drive system for enhanced traction and stability.\r\n\r\nInterior Quality: Inside, the 1 Series boasts a high-quality cabin with premium materials, modern design, and a driver-focused layout. Features often include sports seats, high-end finishes, and a range of customization options.\r\n\r\nTechnology: Recent models come equipped with BMW's iDrive infotainment system, including a high-resolution display, navigation, Apple CarPlay and Android Auto compatibility, and available premium sound systems. The interface is designed to be intuitive and user-friendly.\r\n\r\nSafety Features: The 1 Series is equipped with a suite of advanced safety and driver-assistance features, including adaptive cruise control, lane-keeping assistance, and parking sensors. Many models also include advanced technologies to enhance overall safety and convenience.\r\n\r\nVersatility: Though a compact hatchback, the 1 Series offers decent cargo space, especially with the rear seats folded down, making it practical for everyday use.\r\n\r\nRecent Updates:\r\nThe latest generation of the 1 Series, introduced in 2020, features a more modern design, improved technology integration, and new engine options. The shift to front-wheel drive for most models has generated a lot of discussions, but it has allowed for a more spacious interior.\r\n\r\nConclusion:\r\nThe BMW 1 Series is an excellent choice for those seeking a compact car that doesn't compromise on luxury, performance, or technology. Its sporty characteristics and premium features make it appealing to a wide range of buyers, from young professionals to small families. If you\u2019d like specific details on particular model years, comparisons with other models, or a deeper look into features, feel free to ask!\r\n\r\nKey Features of the BMW 1 Series:\r\nEngine Options: The 1 Series is available with a range of engines, including efficient four-cylinder options and powerful inline-six engines in the sporty M variants. The M135i xDrive, for example, features a 2.0-liter turbocharged four-cylinder engine producing around 302 horsepower and is paired with an 8-speed automatic transmission.\r\n\r\nPerformance: The 1 Series is designed for driving enthusiasts, with responsive steering and a well-tuned suspension that provides a sporty yet comfortable ride. The higher-performance models come with BMW's xDrive all-wheel-drive system for enhanced traction and stability.\r\n\r\nInterior Quality: Inside, the 1 Series boasts a high-quality cabin with premium materials, modern design, and a driver-focused layout. Features often include sports seats, high-end finishes, and a range of customization options.\r\n\r\nTechnology: Recent models come equipped with BMW's iDrive infotainment system, including a high-resolution display, navigation, Apple CarPlay and Android Auto compatibility, and available premium sound systems. The interface is designed to be intuitive and user-friendly.\r\n\r\nSafety Features: The 1 Series is equipped with a suite of advanced safety and driver-assistance features, including adaptive cruise control, lane-keeping assistance, and parking sensors. Many models also include advanced technologies to enhance overall safety and convenience.\r\n\r\nVersatility: Though a compact hatchback, the 1 Series offers decent cargo space, especially with the rear seats folded down, making it practical for everyday use.\r\n\r\nRecent Updates:\r\nThe latest generation of the 1 Series, introduced in 2020, features a more modern design, improved technology integration, and new engine options. The shift to front-wheel drive for most models has generated a lot of discussions, but it has allowed for a more spacious interior.\r\n\r\nConclusion:\r\nThe BMW 1 Series is an excellent choice for those seeking a compact car that doesn't compromise on luxury, performance, or technology. Its sporty characteristics and premium features make it appealing to a wide range of buyers, from young professionals to small families. If you\u2019d like specific details on particular model years, comparisons with other models, or a deeper look into features, feel free to ask!",
+            "short_description": "The BMW 1 Series is a compact car that has evolved significantly since its initial launch in 2004. Known for its sporty performance, premium features, and dynamic handling, the 1 Series is designed for those looking for a fun-to-drive vehicle in a smaller package.",
+            "car_image": "cars/1_series.PNG",
+            "car_image2": "cars/1_series2.PNG"
+        },
+        {
+            "id": 17,
+            "car_name": "BMW X3",
+            "car_make": "BMW",
+            "car_model": "X3",
+            "property_1": "X3 xDrive30i: Equipped with a 2.0-liter turbocharg",
+            "property_2": "X3 M: A high-performance version with a 3.0-liter",
+            "description": "The BMW X3 is a compact luxury SUV known for its blend of performance, spaciousness, and advanced technology. Since its debut in 2003, the X3 has become a key player in the luxury SUV market, attracting drivers who seek both versatility and a driving experience that reflects BMW's reputation for sportiness and quality.\r\nKey Features of the BMW X3:\r\nEngine Options: The X3 offers a range of engine options, including turbocharged four-cylinder and six-cylinder engines. Recent models (like the G01 generation introduced in 2018) feature engines such as:\r\n\r\nX3 xDrive30i: Equipped with a 2.0-liter turbocharged four-cylinder engine producing around 248 horsepower.\r\nX3 M40i: A sportier variant featuring a 3.0-liter turbocharged inline-six that delivers about 382 horsepower.\r\nX3 M: A high-performance version with a 3.0-liter inline-six twin-turbo engine producing over 500 horsepower.\r\nTransmission and Drivetrain: All X3 models come with an 8-speed automatic transmission and BMW's xDrive all-wheel-drive system, enhancing traction and handling in various driving conditions.\r\n\r\nInterior Comfort and Quality: The X3 boasts a spacious and well-appointed interior with high-quality materials, supportive seating, and a driver-oriented cockpit. The rear seats offer ample legroom, making it practical for families and passengers.\r\n\r\nTechnology: The X3 is equipped with BMW\u2019s iDrive infotainment system, which includes a touchscreen display, navigation, Bluetooth connectivity, Apple CarPlay, and Android Auto compatibility. Depending on the trim, it can also feature a head-up display, a premium sound system, and advanced digital instrument clusters.\r\n\r\nSafety Features: BMW places a strong emphasis on safety, and the X3 comes with a variety of advanced safety and driver-assistance features. These may include adaptive cruise control, lane departure warning, blind-spot monitoring, and automated emergency braking.\r\n\r\nCargo Space: The X3 offers a respectable amount of cargo space for an SUV of its size, with the option to expand it by folding down the rear seats.\r\n\r\nRecent Updates:\r\nThe latest models, including the 2023 and 2024 versions, feature updated styling, improved technology enhancements, and potentially more eco-friendly engine options in line with industry trends toward hybridization.\r\n\r\nConclusion:\r\nThe BMW X3 is an excellent choice for those looking for a luxury compact SUV that delivers an engaging driving experience along with practicality and comfort. Its strong performance attributes, coupled with a premium interior and modern technology, make it competitive within its segment. If you have any specific questions about particular features, trims, or model years, feel free to ask!",
+            "short_description": "The BMW X3 is a compact luxury SUV known for its blend of performance, spaciousness, and advanced technology. Since its debut in 2003, the X3 has become a key player in the luxury SUV market, attracting drivers who seek both versatility and a driving experience that reflects BMW's reputation for sportiness and quality.",
+            "car_image": "cars/X3_sFsBRXb.PNG",
+            "car_image2": "cars/X3-_2UdUPJw.PNG"
+        },
+        {
+            "id": 18,
+            "car_name": "BMW i4",
+            "car_make": "BMW",
+            "car_model": "i4",
+            "property_1": "i4 eDrive40:335 horsepower",
+            "property_2": "i4 M50:536 horsepower",
+            "description": "The BMW i4 is an all-electric gran coupe that represents BMW\u2019s commitment to electric mobility and combines the brand's performance pedigree with modern electric vehicle (EV) technology. Launched as part of BMW\u2019s i series, the i4 is designed to offer the lively driving dynamics associated with BMW while being environmentally friendly.\r\nKey Features of the BMW i4:\r\nPowertrain: The i4 is available in different variants, including:\r\n\r\ni4 eDrive40: This version features a single electric motor located at the rear, generating about 335 horsepower and a range of up to 300 miles on a full charge, depending on driving conditions and usage.\r\ni4 M50: This performance-oriented version includes dual motors (one at the front and one at the rear) that produce around 536 horsepower and can accelerate from 0-60 mph in approximately 3.9 seconds. The range is slightly lower due to the higher performance but still competitive.\r\nBattery and Charging: The i4 is equipped with a high-capacity lithium-ion battery, supporting fast charging capabilities. It can be charged at home via a standard outlet, a wall box, or at public fast-charging stations, allowing for rapid top-ups of range.\r\n\r\nPerformance: The i4 offers an engaging driving experience, with precise steering and responsive throttle. The low center of gravity, thanks to the placement of the battery, contributes to excellent handling characteristics typically expected from a BMW.\r\n\r\nInterior and Comfort: Inside, the i4 features a modern and luxurious cabin with high-quality materials, spacious seating, and a driver-focused layout. Options may include sport seats, ambient lighting, and advanced climate control systems.\r\n\r\nTechnology: The i4 comes equipped with BMW's latest iDrive system, which includes a large curved display that combines the instrument cluster and infotainment system. Features include navigation, Apple CarPlay, and Android Auto. The system is designed to be intuitive and user-friendly, with voice control capabilities.\r\n\r\nSafety Features: The i4 includes a suite of advanced driver-assistance systems, such as adaptive cruise control, lane-keeping assist, collision prevention, and a 360-degree camera system, enhancing safety and convenience.\r\n\r\nSustainability: As an electric vehicle, the i4 is designed with sustainability in mind, including the use of recycled materials in its construction and production process, emphasizing BMW\u2019s commitment to an eco-friendly future.\r\n\r\nConclusion:\r\nThe BMW i4 is a promising entry into the electric vehicle market, combining BMW's sporty reputation with advanced electric technology. It appeals to drivers looking for a stylish and high-performance EV with the practicality of a four-door coupe. If you have specific questions about features, model comparisons, or anything else related to the i4, feel free to ask!",
+            "short_description": "The BMW i4 is an all-electric gran coupe that represents BMW\u2019s commitment to electric mobility and combines the brand's performance pedigree with modern electric vehicle (EV) technology. Launched as part of BMW\u2019s i series, the i4 is designed to offer the lively driving dynamics associated with BMW while being environmentally friendly.",
+            "car_image": "cars/2i4.PNG",
+            "car_image2": "cars/i4.PNG"
+        },
+        {
+            "id": 19,
+            "car_name": "BMW M5",
+            "car_make": "BMW",
+            "car_model": "M5",
+            "property_1": "4.4-liter twin-turbocharged V8 engin",
+            "property_2": "600 horsepower in the base M5 and 617 hp .",
+            "description": "The BMW M5 is a high-performance luxury sedan that represents the pinnacle of the BMW 5 Series lineup. Known for its powerful engines, advanced technology, and sporty handling, the M5 is designed for driving enthusiasts who seek a combination of everyday usability and track-ready performance.\r\nKey Features of the BMW M5:\r\nEngine: The current generation of the M5, which is the G30, is powered by a robust 4.4-liter twin-turbocharged V8 engine. This engine produces around 600 horsepower in the base M5 and 617 horsepower in the M5 Competition variant. The M5 is capable of accelerating from 0 to 60 mph in just about 3.2 seconds, showcasing its performance prowess.\r\n\r\nTransmission: The M5 is equipped with an 8-speed automatic transmission (M Steptronic), which provides quick and precise shifts. The transmission also features a manual mode for those who prefer a more engaged driving experience.\r\n\r\nAll-Wheel Drive: The M5 comes standard with BMW's xDrive all-wheel-drive system, which enhances traction and stability, especially during high-performance driving or adverse weather conditions. The M5 offers a rear-wheel-drive mode for a more traditional sports car experience.\r\n\r\nSuspension and Handling: The M5 is fitted with an adaptive M suspension system that offers adjustable settings for comfort and sportiness. Performance features like M Servotronic steering provide excellent feedback and precision, enhancing the driving dynamics.\r\n\r\nInterior Comfort and Luxury: Inside, the M5 features high-quality materials, including leather upholstery and premium finishes, along with performance-oriented touches like M-specific seats and a sporty steering wheel. The cabin is spacious and loaded with comfort and technology features.\r\n\r\nTechnology: The M5 includes BMW\u2019s iDrive infotainment system, which is integrated into a high-resolution display. The system offers features like navigation, smartphone integration (Apple CarPlay and Android Auto), and a premium sound system. Voice control and gesture control options enhance the user experience.\r\n\r\nSafety and Driver-Assist Features: The M5 is equipped with various safety technologies, including adaptive cruise control, lane departure warning, forward collision warning, and parking sensors. These features enhance both convenience and safety in daily driving conditions.\r\n\r\nRecent Updates:\r\nIn the latest models (such as the 2023 and 2024 versions), the M5 continues to evolve with performance updates, technology enhancements, and refined styling. The M5 Competition variant offers additional performance tweaks, making it even more appealing to driving enthusiasts.\r\n\r\nConclusion:\r\nThe BMW M5 stands out as an iconic performance sedan, balancing luxury and sport. It's well-regarded not just for its raw power but also for its ability to serve as a comfortable daily driver. If you have any specific questions about features, comparisons with other models, or details about specific model years, feel free to ask!",
+            "short_description": "The BMW M5 is a high-performance luxury sedan that represents the pinnacle of the BMW 5 Series lineup. Known for its powerful engines, advanced technology, and sporty handling, the M5 is designed for driving enthusiasts who seek a combination of everyday usability and track-ready performance.",
+            "car_image": "cars/m5_2.PNG",
+            "car_image2": "cars/m5.PNG"
+        },
+        {
+            "id": 20,
+            "car_name": "Subaru Forester",
+            "car_make": "Subaru",
+            "car_model": "Forester",
+            "property_1": "2.5-liter four-cylinder engine",
+            "property_2": "182 horsepower",
+            "description": "The Subaru Forester is a compact SUV known for its practicality, all-weather capability, and safety features. Since its introduction in 1997, the Forester has gained a loyal following, particularly among outdoor enthusiasts and families who appreciate its spacious interior, all-wheel-drive system, and rugged design.\r\nKey Features of the Subaru Forester:\r\nEngine Options: The current generation (which debuted in 2019 and continues into 2024) typically features a 2.5-liter four-cylinder engine that produces around 182 horsepower. This engine is paired with a continuously variable transmission (CVT), which helps with fuel efficiency while providing a smooth driving experience.\r\n\r\nAll-Wheel Drive: All models come standard with Subaru's Symmetrical All-Wheel Drive system, enhancing traction and stability on various surfaces, making the Forester a great choice for adverse weather conditions and off-road adventures.\r\n\r\nInterior Space and Comfort: The Forester is designed with a spacious interior, accommodating five passengers comfortably. It offers good headroom and legroom, along with a large cargo area. The rear seats can fold down to expand the cargo space further, perfect for transporting gear for outdoor activities.\r\n\r\nTechnology: Recent models feature Subaru\u2019s Starlink infotainment system, which includes a touchscreen display, Apple CarPlay, Android Auto compatibility, Bluetooth, and available navigation. Higher trims may offer upgraded sound systems and additional connectivity options.\r\n\r\nSafety Features: The Forester is known for its safety ratings and comes equipped with Subaru\u2019s EyeSight Driver Assist Technology. This suite includes features such as adaptive cruise control, lane departure warning, pre-collision braking, and lane-keeping assist. The Forester regularly receives high marks in safety tests, making it a reliable choice for families.\r\n\r\nFuel Efficiency: The Subaru Forester offers competitive fuel efficiency for its class, with EPA estimates typically around 26-33 mpg (city/highway), depending on the trim level and driving conditions.\r\n\r\nRecent Updates:\r\nThe 2023 and 2024 models of the Forester see minor updates and enhancements in technology, including improved infotainment features and package options, keeping it competitive within the compact SUV segment.\r\n\r\nConclusion:\r\nThe Subaru Forester is a highly regarded compact SUV, combining practicality, performance, and safety features that make it suitable for a wide range of drivers, especially those who enjoy outdoor activities. Its spacious interior and standard all-wheel drive enhance its appeal as a family vehicle and adventure-ready SUV. If you have specific questions about features, comparing different trims, or model year differences, feel free to ask!",
+            "short_description": "The Subaru Forester is a compact SUV known for its practicality, all-weather capability, and safety features. Since its introduction in 1997, the Forester has gained a loyal following, particularly among outdoor enthusiasts and families who appreciate its spacious interior, all-wheel-drive system, and rugged design.",
+            "car_image": "cars/forester1.PNG",
+            "car_image2": "cars/forester2.PNG"
+        },
+        {
+            "id": 21,
+            "car_name": "Subaru Impleza",
+            "car_make": "Subaru",
+            "car_model": "Impleza",
+            "property_1": "2.0-liter four-cylinder engine",
+            "property_2": "152 horsepower",
+            "description": "The Subaru Impreza is a versatile compact car known for its all-wheel-drive capability, practicality, and reliable performance. Available in both sedan and hatchback body styles, the Impreza is popular among drivers who value a combination of safety, comfort, and all-weather performance.\r\n\r\nKey Features of the Subaru Impreza:\r\nEngine Options: The current generation, which debuted in 2017 and continues into 2024, typically comes equipped with a 2.0-liter four-cylinder engine that produces about 152 horsepower. This engine is paired with a continuously variable transmission (CVT), which provides smooth acceleration and contributes to relatively good fuel efficiency.\r\n\r\nAll-Wheel Drive: One of the Impreza\u2019s standout features is its Symmetrical All-Wheel Drive system, which comes standard on all trims. This feature enhances traction and stability, making the Impreza a solid choice for driving in various weather conditions, including rain and snow.\r\n\r\nInterior Space and Comfort: The Impreza offers a comfortable interior with supportive seating, spacious legroom, and quality materials. The hatchback version provides additional cargo versatility with its rear seats that can be folded down to expand the cargo area significantly.\r\n\r\nTechnology: Recent models are equipped with Subaru\u2019s Starlink infotainment system, which includes a touchscreen display, Apple CarPlay, and Android Auto compatibility, along with Bluetooth connectivity. Higher trims may offer features such as a premium sound system, navigation, and additional USB ports.\r\n\r\nSafety Features: The Impreza is known for its strong safety ratings and comes with Subaru\u2019s EyeSight Driver Assist Technology on many trims. This suite includes adaptive cruise control, lane departure warning, pre-collision braking, and lane-keeping assist, enhancing safety for drivers and passengers alike.\r\n\r\nFuel Efficiency: The Impreza is recognized for its commendable fuel economy, with EPA estimates typically around 24-36 mpg (city/highway), depending on the specific configuration and driving conditions.\r\n\r\nRecent Updates:\r\nFor the 2023 and 2024 model years, the Impreza features subtle updates to styling and technology, maintaining its competitive edge in the compact car segment. Features like improved infotainment systems and enhanced available safety technologies are part of the offering.\r\n\r\nConclusion:\r\nThe Subaru Impreza appeals to a wide range of drivers, particularly those seeking a compact car that offers reliability, safety, and all-wheel-drive capability. Its practicality makes it suitable for everyday commuting as well as adventurous outings. If you have any specific questions about particular trims, model comparisons, or anything else related to the Impreza, feel free to ask!",
+            "short_description": "The Subaru Impreza is a versatile compact car known for its all-wheel-drive capability, practicality, and reliable performance. Available in both sedan and hatchback body styles, the Impreza is popular among drivers who value a combination of safety, comfort, and all-weather performance.",
+            "car_image": "cars/impleza2.PNG",
+            "car_image2": "cars/impleza1.PNG"
+        },
+        {
+            "id": 22,
+            "car_name": "Subaru BRZ",
+            "car_make": "Subaru",
+            "car_model": "BRZ",
+            "property_1": "2.4-liter four-cylinder engine",
+            "property_2": "228 horsepower and 184 lb-ft of torque",
+            "description": "The Subaru BRZ is a sporty compact coupe known for its fun-to-drive character, engaging handling, and balanced performance. Developed in collaboration with Toyota, the BRZ shares its platform with the Toyota 86, and both cars emphasize a pure driving experience, lightweight design, and rear-wheel drive.\r\n\r\nKey Features of the Subaru BRZ:\r\nEngine: The BRZ is powered by a naturally aspirated 2.4-liter four-cylinder engine that produces 228 horsepower and 184 lb-ft of torque in the latest models. This engine is paired with either a 6-speed manual transmission or a 6-speed automatic transmission, catering to different driving preferences.\r\n\r\nPerformance and Handling: The BRZ is renowned for its sharp handling and balance, thanks to a low center of gravity and a well-tuned suspension system. With rear-wheel drive, the BRZ offers an engaging driving experience that appeals to enthusiasts. Its lightweight design contributes to agile maneuverability, making it suitable for both everyday driving and spirited runs on winding roads or racetracks.\r\n\r\nSporty Design: The exterior of the BRZ features a sleek and aerodynamic design, with aggressive lines that enhance its sporty appearance. The coupe body style is complemented by wide fenders and a low stance, giving it a strong visual presence.\r\n\r\nInterior Features: Inside, the BRZ focuses on the driver, with supportive sport seats and a driver-centric dashboard layout. While it emphasizes performance, it still provides modern amenities including a touchscreen infotainment system with Apple CarPlay and Android Auto integration, Bluetooth connectivity, and available premium audio systems.\r\n\r\nSafety Features: The BRZ incorporates various safety technologies, including stability and traction control, advanced airbag systems, and available driver-assist features such as a rearview camera and adaptive cruise control, depending on the trim level.\r\n\r\nCustomization: The BRZ is often favored by enthusiasts for its tuning potential. Many owners opt to personalize their vehicles with aftermarket parts that enhance performance, aesthetics, or both.\r\n\r\nRecent Updates:\r\nThe 2022 model saw significant updates with the introduction of the new generation BRZ, offering improved performance, refreshed styling, and updated technology features. This new generation addresses feedback from enthusiasts, providing a stronger emphasis on driving dynamics and a more refined interior.\r\n\r\nConclusion:\r\nThe Subaru BRZ is an excellent choice for drivers seeking a lightweight, rear-wheel-drive sports coupe that prioritizes engagement and driver enjoyment. Its balance between performance, design, and everyday usability makes it a compelling option for both enthusiasts and casual drivers. If you have specific questions about features, trims, or comparisons with other vehicles, feel free to ask!",
+            "short_description": "The Subaru BRZ is a sporty compact coupe known for its fun-to-drive character, engaging handling, and balanced performance. Developed in collaboration with Toyota, the BRZ shares its platform with the Toyota 86, and both cars emphasize a pure driving experience, lightweight design, and rear-wheel drive.",
+            "car_image": "cars/BRZ2.PNG",
+            "car_image2": "cars/BRZ.PNG"
+        },
+        {
+            "id": 23,
+            "car_name": "Subaru Sambar",
+            "car_make": "Subaru",
+            "car_model": "Sambar",
+            "property_1": "efficient 660cc engine",
+            "property_2": "40 to 64 horsepower",
+            "description": "The Subaru Sambar is a compact, kei truck that has gained popularity for its unique design and versatility. It\u2019s part of Japan\u2019s kei car segment, which includes small vehicles that meet specific size and engine restrictions set by Japanese government regulations. The Sambar has been in production since 1961 and has undergone several generations of updates, making it a staple in Japan and among enthusiasts worldwide.\r\nKey Features of the Subaru Sambar:\r\nEngine and Performance: The Sambar is typically powered by a small, efficient 660cc engine, which is standard for kei cars. Depending on the model year and variant, the engine can either be naturally aspirated or turbocharged, producing around 40 to 64 horsepower. The Sambar offers a lightweight design, contributing to its agility and maneuverability, particularly in urban environments.\r\n\r\nBody Styles: One of the notable features of the Sambar is its availability in various body styles. It is commonly offered as a mini truck (with a flatbed) and a van, allowing for different uses, from hauling cargo to passenger transport.\r\n\r\nAll-Wheel Drive: Many Sambar models come with Subaru's signature 4WD (four-wheel-drive) system, enhancing off-road capability and traction in various weather conditions. This makes the Sambar a practical choice for rural areas where road conditions can be challenging.\r\n\r\nCompact Size: Complying with kei car regulations, the Sambar is compact, typically measuring less than 3.4 meters in length. This size makes it easy to maneuver and park in tight spaces, making it particularly appealing in crowded cities.\r\n\r\nPracticality and Utility: The Sambar\u2019s design emphasizes practicality with a spacious interior for its size and flexible cargo options. The van version can be configured to seat passengers or carry goods, while the truck version offers a flatbed for transporting goods, making it a versatile vehicle for small businesses and personal use.\r\n\r\nCulture and Enthusiasm: The Sambar has a dedicated following, not just in Japan but also among collectors and enthusiasts outside of Japan. Its unique design, efficient use of space, and quirky character have made it a beloved model among kei car fans.\r\n\r\nRecent Developments:\r\nWhile the Sambar is not widely available in markets outside Japan, it remains in production and continues to evolve. In recent years, some iterations have included updated styling, improved comfort, and additional technology features.\r\n\r\nConclusion:\r\nThe Subaru Sambar is an iconic kei vehicle that offers a combination of practicality, efficiency, and charm. Ideal for urban driving, rural use, and even recreational purposes, it showcases Subaru's commitment to creating versatile vehicles. If you have specific questions about certain models, historical context, or comparisons with other kei cars, feel free to ask!",
+            "short_description": "The Subaru Sambar is a compact, kei truck that has gained popularity for its unique design and versatility. It\u2019s part of Japan\u2019s kei car segment, which includes small vehicles that meet specific size and engine restrictions set by Japanese government regulations. The Sambar has been in production since 1961 and has undergone several generations of updates, making it a staple in Japan and among ent",
+            "car_image": "cars/sambar2.PNG",
+            "car_image2": "cars/sambar.PNG"
+        },
+        {
+            "id": 24,
+            "car_name": "Nissan Altima",
+            "car_make": "Nissan",
+            "car_model": "Altima",
+            "property_1": "2.5-liter four-cylinder engine",
+            "property_2": "188 horsepowe",
+            "description": "The Nissan Altima is a popular midsize sedan known for its comfortable ride, spacious interior, and advanced technology features. Since its debut in 1992, the Altima has evolved through several generations and remains one of Nissan\u2019s key models in the competitive sedan market.\r\n\r\nKey Features of the Nissan Altima:\r\nEngine Options: The latest generation of the Altima (2023 and beyond) typically offers two engine choices:\r\n\r\nA 2.5-liter four-cylinder engine that produces around 188 horsepower and provides a balance of performance and fuel efficiency.\r\nA more powerful 2.0-liter turbocharged four-cylinder engine available on higher trims, producing about 248 horsepower. This engine enhances performance while maintaining good fuel economy.\r\nTransmission: Both engines are paired with a CVT (continuously variable transmission), which helps maximize fuel efficiency and ensures smooth acceleration.\r\n\r\nAll-Wheel Drive: A standout feature of the Altima in its class is the availability of all-wheel drive. This option enhances traction and stability in various driving conditions, making the Altima a good choice for drivers in climates with inclement weather.\r\n\r\nInterior Comfort and Space: The Altima features a spacious and well-designed interior with comfortable seating for five passengers. It offers quality materials, ample legroom in both the front and rear, and a trunk space that\u2019s competitive for its class.\r\n\r\nTechnology: Recent models are equipped with Nissan\u2019s NissanConnect infotainment system, which includes a touchscreen display, Bluetooth connectivity, Apple CarPlay, and Android Auto compatibility. Higher trims may offer features like a premium audio system, navigation, and additional USB ports.\r\n\r\nSafety Features: The Altima is designed with safety in mind and comes with a variety of advanced driver-assistance systems, often bundled in Nissan\u2019s Safety Shield 360 suite. This may include features like adaptive cruise control, lane departure warning, blind-spot monitoring, automatic emergency braking, and rear cross-traffic alert.\r\n\r\nFuel Efficiency: The Altima's fuel efficiency ratings are competitive, with the four-cylinder engine achieving EPA estimates of around 28-39 mpg (city/highway), while the turbocharged engine provides a good blend of power and efficiency.\r\n\r\nRecent Updates:\r\nFor the 2023 model year, the Altima has seen some styling updates, enhanced technology features, and improvements in safety equipment. Nissan continues to refine the sedan's offering to keep it competitive against rivals like the Toyota Camry, Honda Accord, and Mazda6.\r\n\r\nConclusion:\r\nThe Nissan Altima is a well-rounded midsize sedan that appeals to a broad audience due to its blend of comfort, technology, and performance. It offers a practical choice for families and commuters alike, especially for those seeking the added benefit of all-wheel drive. If you have specific questions about features, trim comparisons, or anything else related to the Altima, feel free to ask!",
+            "short_description": "The Nissan Altima is a popular midsize sedan known for its comfortable ride, spacious interior, and advanced technology features. Since its debut in 1992, the Altima has evolved through several generations and remains one of Nissan\u2019s key models in the competitive sedan market.",
+            "car_image": "cars/altima.PNG",
+            "car_image2": "cars/altima2.PNG"
+        },
+        {
+            "id": 25,
+            "car_name": "Nissan Pathfinder",
+            "car_make": "Nissan",
+            "car_model": "Pathfinder",
+            "property_1": "3.5-liter V6 engine",
+            "property_2": "284 horsepower and 259 lb-ft of torque",
+            "description": "The Nissan Pathfinder is a midsize SUV that has been a popular choice for families and adventure seekers since its introduction in 1985. The Pathfinder is known for its spacious interior, versatile seating, and a capability that balances on-road comfort with off-road potential. The model has gone through several generations, with notable changes over the years.\r\n\r\nKey Features of the Nissan Pathfinder:\r\nEngine Options: The latest generation of the Pathfinder, introduced for the 2022 model year, is powered by a 3.5-liter V6 engine delivering 284 horsepower and 259 lb-ft of torque. This engine is paired with a 9-speed automatic transmission that enhances performance and efficiency.\r\n\r\nDrivetrain: The Pathfinder offers options for both front-wheel drive (FWD) and all-wheel drive (AWD), making it versatile for different driving conditions, whether on highways or less stable terrain.\r\n\r\nInterior Space and Comfort: The Pathfinder is designed with family comfort in mind. It typically seats up to eight passengers, depending on the configuration, with a spacious second row that can slide and recline for added comfort. Higher trims often feature leather upholstery, heated and ventilated seats, and a panoramic sunroof.\r\n\r\nCargo Capacity: With ample cargo space available, the Pathfinder can accommodate gear for family outings or road trips. The rear seats can be folded down to maximize cargo capacity, providing a flat load floor.\r\n\r\nTechnology: The Pathfinder is equipped with Nissan's NissanConnect infotainment system, featuring a touch screen, smartphone integration (Apple CarPlay and Android Auto), Bluetooth connectivity, and a range of available premium audio systems. Higher trims may come with additional features such as a larger touchscreen, navigation, and multiple USB ports.\r\n\r\nSafety Features: The Pathfinder prioritizes safety and includes Nissan's Safety Shield 360 suite of features, which may consist of adaptive cruise control, automatic emergency braking, lane departure warning, blind-spot monitoring, and rear cross-traffic alert.\r\n\r\nTowing Capacity: The Pathfinder has a respectable towing capacity, allowing it to tow up to 6,000 pounds when properly equipped, making it suitable for trailers, boats, or campers.\r\n\r\nRecent Updates:\r\nIn 2022, the Pathfinder received a comprehensive redesign that enhanced its performance, technology, and safety features. The updated model features a more rugged exterior design, improved interior layout, and modern technology offerings that cater to family needs.\r\n\r\nConclusion:\r\nThe Nissan Pathfinder is a well-rounded midsize SUV that balances family-friendly features with the capability for adventure. Its spacious interior, advanced technology, and strong performance make it a solid choice for families, outdoor enthusiasts, and anyone seeking a versatile and reliable SUV. If you have specific questions about trim levels, features, or model comparisons, feel free to ask!",
+            "short_description": "The Nissan Pathfinder is a midsize SUV that has been a popular choice for families and adventure seekers since its introduction in 1985. The Pathfinder is known for its spacious interior, versatile seating, and a capability that balances on-road comfort with off-road potential. The model has gone through several generations, with notable changes over the years.",
+            "car_image": "cars/path.PNG",
+            "car_image2": "cars/path2.PNG"
+        },
+        {
+            "id": 26,
+            "car_name": "Nahi Frontier",
+            "car_make": "Nissan",
+            "car_model": "Frontier",
+            "property_1": "3.8-liter V6 engine",
+            "property_2": "310 horsepower and 281 lb-ft of torque",
+            "description": "The Nahi Frontier is a midsize pickup truck known for its rugged design, reliable performance, and versatility. It has been a popular choice for both work and recreational use since its introduction in the late 1990s. The latest generation debuted for the 2022 model year, bringing significant updates to design, technology, and capability.\r\n\r\nKey Features of the Nissan Frontier:\r\nEngine Options: The latest Frontier is powered by a 3.8-liter V6 engine that produces 310 horsepower and 281 lb-ft of torque. This engine is paired with a 9-speed automatic transmission, providing a good balance of performance and efficiency for both towing and off-road driving.\r\n\r\nDrivetrain and Capability: The Frontier is available in both rear-wheel drive (RWD) and four-wheel drive (4WD) configurations, making it suitable for various driving conditions. Its robust construction and features like skid plates and off-road tires enhance its capability for off-road adventures.\r\n\r\nTowing Capacity: The Frontier can tow up to 6,720 pounds when properly equipped, making it a capable truck for hauling trailers, boats, or other heavy loads.\r\n\r\nInterior Comfort and Space: Inside, the Frontier offers a modernized cabin with comfortable seating for up to five passengers, depending on the configuration. Higher trims come with upgraded materials, supportive seats, and available features like heated seats, a panoramic sunroof, and enhanced sound insulation for a quieter ride.\r\n\r\nTechnology: The Frontier is equipped with Nissan's NissanConnect infotainment system, which features a touchscreen interface, smartphone integration with Apple CarPlay and Android Auto, Bluetooth connectivity, and available navigation. Higher trims may offer additional tech features, including a premium sound system and multiple USB charging ports.\r\n\r\nSafety Features: The new Frontier includes a suite of advanced safety technologies, often bundled in Nissan's Safety Shield 360. This may encompass features like automatic emergency braking, forward collision warning, blind-spot monitoring, rear cross-traffic alert, and lane departure warning.\r\n\r\nTrim Levels: The Frontier is available in multiple trim levels, including S, SV, Pro-4X, and SL. Each trim has different features and options, allowing buyers to choose a configuration that best suits their needs, whether for work, off-roading, or daily driving.\r\n\r\nRecent Updates:\r\nThe 2022 model year marked a significant redesign for the Frontier, with a more aggressive exterior styling and an updated interior that emphasizes comfort and technology. The changes were well-received, positioning the Frontier as a strong competitor against other midsize trucks like the Toyota Tacoma and Ford Ranger.\r\n\r\nConclusion:\r\nThe Nissan Frontier stands out as a well-rounded midsize pickup that combines capability, comfort, and modern technology. Its strong engine, towing capacity, and off-road ability make it a versatile option for both everyday use and outdoor adventures. If you have specific questions about different trims, features, or comparisons with other trucks, feel free to ask!",
+            "short_description": "The Nahi Frontier is a midsize pickup truck known for its rugged design, reliable performance, and versatility. It has been a popular choice for both work and recreational use since its introduction in the late 1990s. The latest generation debuted for the 2022 model year, bringing significant updates to design, technology, and capability.",
+            "car_image": "cars/frontier.PNG",
+            "car_image2": "cars/frontier2.PNG"
+        },
+        {
+            "id": 27,
+            "car_name": "Nissan 370Z",
+            "car_make": "Nissan",
+            "car_model": "370Z",
+            "property_1": "3.7-liter V6 engine",
+            "property_2": "332 horsepower and 270 lb-ft of torque",
+            "description": "The Nissan 370Z is a sports car that embodies Nissan's long-standing heritage in performance and engineering. Introduced in 2009, it is part of the Z-car family, which has been a symbol of Nissan\u2019s commitment to creating exciting, driver-focused vehicles. The 370Z is known for its powerful performance, classic styling, and enjoyable driving dynamics.\r\n\r\nKey Features of the Nissan 370Z:\r\nEngine and Performance: The 370Z is powered by a 3.7-liter V6 engine that produces 332 horsepower and 270 lb-ft of torque in standard models. There\u2019s also a 370Z Nismo variant, which enhances performance with a tuned version of the same engine, generating 350 horsepower and 276 lb-ft of torque. The engine can be paired with a 6-speed manual transmission or a 7-speed automatic transmission, offering a choice for driving enthusiasts.\r\n\r\nDistinctive Design: The 370Z features a sleek, aerodynamic design that draws inspiration from its Z-car predecessors. Its low stance, long hood, and wide body give it an aggressive appearance, while the interior is driver-centric, featuring a simple layout focused on enhancing the driving experience.\r\n\r\nHandling and Chassis: The 370Z is known for its superb handling, thanks to its rear-wheel-drive layout and balanced chassis. The double-wishbone front suspension and multi-link rear suspension contribute to sharp steering response and excellent road grip, making it a joy to drive on winding roads and tracks.\r\n\r\nInterior Features: Inside, the 370Z offers sport seats designed for support and comfort during spirited driving. The cabin includes a modern infotainment system with features like a touchscreen display, Bluetooth connectivity, and available navigation. While the interior space is somewhat limited due to its sports car design, it is functional and well-equipped.\r\n\r\nSafety Features: The 370Z includes various safety features, such as anti-lock brakes, traction control, and stability control. However, it may lack some of the advanced driver-assistance technologies found in newer vehicles, focusing more on providing a traditional sports car experience.\r\n\r\nTrim Levels: The 370Z is typically available in several trims, including Base, Touring, and the performance-oriented Nismo. Each trim level offers a different set of features, allowing buyers to choose a model that suits their preferences for performance and comfort.\r\n\r\nRecent Updates:\r\nAs of 2020, the 370Z was largely unchanged, as Nissan began transitioning to the next generation Z car, which is the Nissan Z (2023 model). The Nissan Z features a new design, updated technology, and a more powerful engine, showcasing Nissan's commitment to the Z-car lineage.\r\n\r\nConclusion:\r\nThe Nissan 370Z is a well-regarded sports car that delivers a thrilling driving experience, classic styling, and strong performance. It appeals to enthusiasts looking for a relatively affordable sports car that emphasizes driver engagement. If you're interested in comparisons with other sports cars, specific trim details, or anything else about the 370Z, feel free to ask!",
+            "short_description": "The Nissan 370Z is a sports car that embodies Nissan's long-standing heritage in performance and engineering. Introduced in 2009, it is part of the Z-car family, which has been a symbol of Nissan\u2019s commitment to creating exciting, driver-focused vehicles. The 370Z is known for its powerful performance, classic styling, and enjoyable driving dynamics.",
+            "car_image": "cars/370.PNG",
+            "car_image2": "cars/370z.PNG"
+        },
+        {
+            "id": 28,
+            "car_name": "Nissan NV200",
+            "car_make": "Nissan",
+            "car_model": "NV200",
+            "property_1": "2.0-liter four-cylinder engine",
+            "property_2": "131 horsepower and 139 lb-ft of torque",
+            "description": "The Nissan NV200 is a compact van designed primarily for commercial use and urban transportation. It\u2019s known for its practicality, efficiency, and versatility, making it a popular choice for businesses needing a reliable delivery vehicle or fleet option. The NV200 combines a spacious interior with efficient fuel economy, making it a functional choice for city driving and small cargo deliveries.\r\n\r\nKey Features of the Nissan NV200:\r\nEngine and Performance: The NV200 is typically powered by a 2.0-liter four-cylinder engine that produces around 131 horsepower and 139 lb-ft of torque. It is paired with a continuously variable transmission (CVT), which helps optimize fuel efficiency. The NV200 is designed for city driving, providing a comfortable and easy driving experience with responsive handling.\r\n\r\nCargo Space: One of the standout features of the NV200 is its impressive cargo space for a compact van. It typically offers around 122 cubic feet of cargo capacity with the rear seats folded down, allowing for easy transport of goods and equipment. The van is designed with multiple tie-downs and a flat loading floor for added convenience.\r\n\r\nFuel Efficiency: The NV200 is known for its commendable fuel economy, often achieving EPA ratings of around 24-26 mpg in the city and 26-29 mpg on the highway, making it an economical option for businesses that rely on frequent driving.\r\n\r\nInterior Comfort and Features: While designed primarily as a commercial vehicle, the NV200 offers a comfortable cabin for the driver and front passenger. Features may include a touchscreen infotainment system, Bluetooth connectivity, and available navigation. The seating is designed for durability, with easy-to-clean materials suited for work environments.\r\n\r\nSafety Features: The NV200 comes with several standard safety features, including anti-lock brakes, traction control, and stability control. Depending on the trim level and options, it may also include additional features like a rearview camera and front and rear parking sensors.\r\n\r\nVersatile Configurations: The NV200 is available in different configurations, including the standard cargo van version and passenger variants with seating for up to five passengers. This flexibility makes it suitable for various commercial and personal uses.\r\n\r\nRecent Updates:\r\nThe NV200 has not seen significant changes in recent years but remains a staple in Nissan's commercial vehicle lineup. It competes with models like the Ford Transit Connect, Ram ProMaster City, and Mercedes-Benz Metris. The van's compact size and ease of maneuverability make it particularly well-suited for urban environments.\r\n\r\nConclusion:\r\nThe Nissan NV200 is a practical and efficient compact van that meets the needs of businesses and individuals looking for a reliable transportation solution. Its spacious cargo capacity, fuel efficiency, and versatility make it a solid choice for various commercial applications. If you have specific questions about features, configurations, or comparisons to other vans, feel free to ask!",
+            "short_description": "The Nissan NV200 is a compact van designed primarily for commercial use and urban transportation. It\u2019s known for its practicality, efficiency, and versatility, making it a popular choice for businesses needing a reliable delivery vehicle or fleet option. The NV200 combines a spacious interior with efficient fuel economy, making it a functional choice for city driving and small cargo deliveries.",
+            "car_image": "cars/nv200.PNG",
+            "car_image2": "cars/nv2002.PNG"
+        },
+        {
+            "id": 29,
+            "car_name": "Isuzu MU-X",
+            "car_make": "Isuzu",
+            "car_model": "Mu-X",
+            "property_1": "3.0-liter turbocharged diesel engine",
+            "property_2": "177 horsepower and 380 Nm of torque",
+            "description": "The Isuzu MU-X is a midsize SUV that has garnered attention for its rugged build, off-road capability, and spacious interior. Launched in various markets as a family-friendly vehicle, the MU-X has become a popular choice for those looking for both comfort and capability, especially in regions where Toyota Land Cruiser and Ford Everest thrive.\r\n\r\nKey Features of the Isuzu MU-X:\r\nEngine Options: The MU-X is commonly powered by a 3.0-liter turbocharged diesel engine, delivering a robust performance. The engine typically produces 177 horsepower and 380 Nm of torque. This powerful engine makes it capable of towing and handling off-road adventures effectively. Depending on the market, it may also be available with a smaller diesel engine.\r\n\r\nTransmission: It generally comes with a 6-speed automatic transmission, which provides smooth shifting and helps improve fuel efficiency while driving on highways or tackling tough terrains.\r\n\r\nDrivetrain: The MU-X is available in both rear-wheel drive (RWD) and four-wheel drive (4WD) configurations, making it well-suited for various driving conditions, whether in urban settings or off the beaten path.\r\n\r\nInterior Space and Comfort: The MU-X accommodates up to seven passengers, with three rows of seating that provides plenty of room for families. The interior is designed with comfort and practicality in mind, featuring quality materials and an intuitive layout. Higher trims may include premium upholstery, a touchscreen infotainment system, and various convenience features.\r\n\r\nCargo Capacity: The SUV offers a generous cargo area, which can be further expanded by folding down the rear seats. This flexibility makes it suitable for carrying luggage, sports equipment, or groceries.\r\n\r\nTechnology: The MU-X is equipped with a range of technology features, typically including a touchscreen infotainment system with Bluetooth connectivity, USB ports, smartphone integration options, and available navigation. Depending on the trim level, it may also offer advanced audio systems and various driver-assistance technologies.\r\n\r\nSafety Features: Safety is a priority in the MU-X, and it usually comes equipped with features like multiple airbags, anti-lock braking systems, electronic stability control, and traction control. Higher trims may add features such as a rearview camera, parking sensors, and advanced driver-assistance systems like lane departure warning and adaptive cruise control.\r\n\r\nRecent Updates:\r\nThe MU-X was redesigned for the 2021 model year, featuring updated aesthetics, improved technology, and enhanced safety features. It competes in a segment that includes the Toyota Fortuner, Ford Everest, and Mitsubishi Pajero Sport, where durability and off-road capability are essential.\r\n\r\nConclusion:\r\nThe Isuzu MU-X is a capable midsize SUV that offers a good balance of comfort, space, and ruggedness. It is an excellent choice for families, outdoor enthusiasts, and anyone seeking a reliable vehicle that can handle both everyday driving and adventurous outings. If you have questions about specific features, trim levels, or comparisons to other SUVs, feel free to ask!",
+            "short_description": "The Isuzu MU-X is a midsize SUV that has garnered attention for its rugged build, off-road capability, and spacious interior. Launched in various markets as a family-friendly vehicle, the MU-X has become a popular choice for those looking for both comfort and capability, especially in regions where Toyota Land Cruiser and Ford Everest thrive.",
+            "car_image": "cars/MUX.PNG",
+            "car_image2": "cars/MUX2.PNG"
+        },
+        {
+            "id": 30,
+            "car_name": "Isuzu D- Max",
+            "car_make": "Isuzu",
+            "car_model": "D-Max",
+            "property_1": "3.0-liter turbocharged four-cylinder",
+            "property_2": "190 horsepower and 450 Nm of torque",
+            "description": "The Isuzu D-Max is a well-regarded midsize pickup truck that has gained popularity for its durability, reliability, and strong performance capabilities. First launched in the early 2000s, the D-Max has undergone several generations of updates, with the latest iteration being introduced in many markets in 2020.\r\n\r\nKey Features of the Isuzu D-Max:\r\nEngine Options: The D-Max typically offers a range of diesel engines, including a 3.0-liter turbocharged four-cylinder option that produces around 190 horsepower and 450 Nm of torque. There\u2019s often a more basic option as well, depending on the market, providing choices for various performance needs.\r\n\r\nTransmission: The truck usually comes with either a 6-speed manual or a 6-speed automatic transmission, offering smooth shifts and a balance of performance and fuel efficiency.\r\n\r\nDrivetrain and Capability: The D-Max is available in two-wheel drive (2WD) and four-wheel drive (4WD) configurations, making it versatile for both urban driving and off-road adventures. Its rugged build and reliable suspension system allow it to handle rough terrains, making it a popular choice for agricultural, construction, and outdoor activities.\r\n\r\nTowing Capacity: The Isuzu D-Max is known for its strong towing capabilities, typically allowing for a towing capacity of up to 3,500 kg (approx. 7,700 lbs) when properly equipped. This makes it suitable for hauling trailers, boats, or heavy equipment.\r\n\r\nInterior Comfort and Features: The D-Max features a functional and spacious cabin designed for comfort during long drives. Depending on the trim level, the interior can come equipped with features such as:\r\n\r\nTouchscreen infotainment system with smartphone connectivity (Apple CarPlay and Android Auto)\r\nBluetooth audio and hands-free calling\r\nAvailable leather upholstery and heated seats in higher trims\r\nRearview camera and parking sensors for added convenience\r\nSafety Features: The D-Max emphasizes safety, often offering a suite of features such as multiple airbags, ABS brakes, electronic stability control, and advanced driver-assistance systems like lane departure warning, forward collision warning, and adaptive cruise control, depending on the trim level.\r\n\r\nRecent Updates:\r\nThe D-Max was fully redesigned for the 2021 model year, featuring a bold new exterior design, improved interior quality, and upgraded technology and safety features. Its enhanced design also includes more aggressive styling and a more refined cabin, aligning it with the modern pickup market.\r\n\r\nConclusion:\r\nThe Isuzu D-Max is a robust and reliable pickup truck that is well-suited for a variety of applications, from daily driving to heavy-duty work. With its strong performance, practical features, and off-road capability, it remains a competitive choice in the midsize truck segment, appealing to both commercial users and recreational drivers. If you have specific questions about different trims, features, or comparisons with other trucks, feel free to ask!",
+            "short_description": "The Isuzu D-Max is a well-regarded midsize pickup truck that has gained popularity for its durability, reliability, and strong performance capabilities. First launched in the early 2000s, the D-Max has undergone several generations of updates, with the latest iteration being introduced in many markets in 2020.",
+            "car_image": "cars/dmax.PNG",
+            "car_image2": "cars/dmax2.PNG"
+        },
+        {
+            "id": 31,
+            "car_name": "Lorries",
+            "car_make": "Isuzu",
+            "car_model": "F-series",
+            "property_1": "Powerful diesel engines  for heavy-duty usE.",
+            "property_2": "4.8-liter or 6.0-liter diesel engine",
+            "description": "The Isuzu F-Series is a line of medium-duty trucks designed for various commercial applications. Known for their durability and reliability, these trucks are commonly used for freight transport, delivery services, and construction work. They are part of Isuzu's broader lineup of commercial vehicles that cater to different market needs.\r\n\r\nKey Features of the Isuzu F-Series:\r\nEngine Options:\r\n\r\nThe F-Series trucks are typically equipped with powerful diesel engines designed for heavy-duty use. Common configurations might include a 4.8-liter or 6.0-liter diesel engine, providing robust torque output for improved hauling capacity.\r\nTransmission:\r\n\r\nThese trucks usually come with a manual transmission, although some models may offer an automatic option, allowing for easier operation depending on the driver\u2019s preference.\r\nPayload Capacity:\r\n\r\nThe Isuzu F-Series trucks are designed to handle significant loads, with payload capacities often ranging from 10,000 to 15,000 pounds or more, depending on the specific model and configuration.\r\nChassis Configuration:\r\n\r\nThe F-Series is available in multiple chassis configurations to suit different types of cargo or specialized bodies. This includes options for flatbeds, box trucks, and other custom setups, making it highly versatile for various industries.\r\nCab Options:\r\n\r\nMany F-Series models come with different cab configurations, including regular cab and crew cab, allowing for either one or multiple passengers, depending on the application needs.\r\nSafety Features:\r\n\r\nModern F-Series trucks typically include essential safety features such as anti-lock braking systems (ABS), traction control, and stability control. Depending on the model year and trim, advanced safety technologies may also be available.\r\nApplications:\r\nThe Isuzu F-Series is commonly utilized in various commercial sectors, including:\r\n\r\nFreight and Logistics: For delivery trucks that need to transport goods efficiently.\r\nConstruction: Often used with specialized bodies like dump beds or crane mounts for construction applications.\r\nWaste Management: Configured for garbage truck applications.\r\nUtilities: Used by utility companies for service and maintenance trucks.\r\nConclusion:\r\nThe Isuzu F-Series provides a robust solution for businesses requiring a dependable medium-duty truck. Its combination of power, versatility, and suitability for customization makes it a reliable choice for a wide range of commercial needs. If you\u2019re interested in specific models, comparisons with other trucks, or detailed specifications, feel free to ask!",
+            "short_description": "The Isuzu F-Series is a line of medium-duty trucks designed for various commercial applications. Known for their durability and reliability, these trucks are commonly used for freight transport, delivery services, and construction work. They are part of Isuzu's broader lineup of commercial vehicles that cater to different market needs.",
+            "car_image": "cars/FSERIES.PNG",
+            "car_image2": "cars/FSERIES2.PNG"
+        }
+    ],
+    "auto_parts_products": [
+        {
+            "id": 2,
+            "product_name": "Dorman 939-259 15 x 5 In. Steel Wheel Compatible with Select Toyota Models, Black",
+            "price": 1,
+            "description": "Damaged your wheel, or looking to upgrade? This wheel is specifically designed to directly replace the original wheel on certain vehicle applications. It is thoroughly tested to meet safety standards for reliable performance. This part is compatible with the following vehicles. Before purchasing, confirm fitment. [Toyota Prius C: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019] - [Toyota Yaris: 2012, 2013, 2014, 2015, 2016]\r\nCustomer Reviews\t4.2 4.2 out of 5 stars    63 ratings\r\n4.2 out of 5 stars\r\nASIN\tB01ID3ZZE6\r\nBest Sellers Rank\t#1,236,489 in Automotive (See Top 100 in Automotive)\r\n#2,516 in Passenger Car Wheels\r\nUPC\t019495537427\r\nGlobal Trade Identification Number\t00019495537427\r\nManufacturer\tDorman Products\r\nBrand\tDorman\r\nManufacturer Part Number\t939-185\r\nMeasurements\r\nRim Size\t17 Inches\r\nRim Width\t6.5 Inches\r\nItem Diameter\t17 Inches\r\nPitch Circle Diameter\t115 Millimeters\r\nWheel Backspacing\t146 Millimeters\r\nSize\tMedia\r\nWheel Size\t17 Inches\r\nAdditional details\r\nMaterial Type\tSteel",
+            "short_description": "Size\t15x5 Inch Brand\tDorman Wheel Size\t15 Inches Pitch Circle Diameter\t100 Millimeters Item Weight\t16 Pounds Item Diameter\t15 Inches",
+            "product_image1": "products_images/whl2.PNG",
+            "product_image2": "products_images/domain_steel_wheel_compatible_amazon.PNG"
+        },
+        {
+            "id": 3,
+            "product_name": "Rain-X 600001 Windshield Repair Kit",
+            "price": 1,
+            "description": "Stops The Spread of Chips and Cracks - Rain-X Windshield Repair Kit Helps You Minimize The Appearance And Stop The Spread Of Chips And Cracks In Your Windshield .Fit Type: Universal Fit\r\nEasy To Use - Everything You Need Is Included, Takes Only Minutes With Minimal Steps. For Cracks Simply Apply Resin To Crack Then Curing Strips, Move Windshield Into Direct Sunlight And Remove Excess. Good for multiple repairs\r\nDurable Resin Formula - Use Durable Resin To Make Windshields Stronger Than Before, Repairing All Types Of Laminated Windshields Up To First Layer Of Windshield Glass\r\nFor Best Results - Repairs Should Be Made As Soon As Possible After The Damage Occurs And Before The Break Has Had A Chance To Be Contaminated By Dirt Or Water\r\nPro-Tip To Avoid Poor Results - Refrain From Applying Resin Too Quickly, Air Pockets Forming During The Repair Or Repairing On A Contaminated Crack As This May Compromise Your Results",
+            "short_description": "Rain-X 600001 Windshield Repair Kit - Quick And Easy Durable Resin Based Kit for Chips and Cracks, Good For Round Damage Below 1\" In Diameter And Cracks Smaller Than 12\" In Length, BLUE,YELLOW",
+            "product_image1": "products_images/kit.PNG",
+            "product_image2": "products_images/kit2.PNG"
+        },
+        {
+            "id": 4,
+            "product_name": "Ultra1Plus AW ISO 32 Hydraulic Oil - 5 Gallon - AW32 Hydraulic Fluid",
+            "price": 1,
+            "description": "About this item\r\nSUPERIOR ANTI-WEAR & RUST PROTECTION: AW32 Formulated to shield components from wear and rust, extending equipment life.\r\nCLEAN OPERATION & FILTER PROTECTION: Resists foaming, varnish, and filter clogging for smooth operation and extended filter life. Designed to Perform for 5,000 Hours of Continuous Operation.\r\nEXCEPTIONAL PERFORMANCE & PUMPABILITY: Delivers reliable performance and easy pumping across diverse operating conditions.\r\nEXTENDED OIL LIFE & VISCOSITY STABILITY: Maintains optimal viscosity over time, protecting against oxidation and wear.\r\nWIDE SEAL COMPATIBILITY: U1P Hydraulic Fluid works seamlessly with common hydraulic system seal materials for worry-free use. Hydraulic Jack Oil Fluid",
+            "short_description": "SUPERIOR ANTI-WEAR & RUST PROTECTION: AW32 Formulated to shield components from wear and rust, extending equipment life.",
+            "product_image1": "products_images/oil.PNG",
+            "product_image2": "products_images/oil2.PNG"
+        },
+        {
+            "id": 5,
+            "product_name": "Dorman Steel Road Wheel",
+            "price": 1,
+            "description": "About this item\r\nDirect replacement - this wheel is designed to match the fit and structural appearance of the original wheel on specific vehicle years, makes and models\r\nCost-effective solution - offers original equipment quality and appearance for a competitive price\r\nThoroughly tested - dynamic radial testing, radial run-out testing, and axial run-out testing ensures performance\r\nTrustworthy quality - backed by team of designers and engineers in the United States\r\nEnsure fit - to make sure this part fits your exact vehicle, input your make, model and trim level into the garage tool",
+            "short_description": "Size\t16 inches X 6.5 inches Brand\tDorman Wheel Size\t16 Inches Pitch Circle Diameter\t4.33 Inches Item Weight\t21.9 Pounds Item Diameter\t16 Inches.",
+            "product_image1": "products_images/d1.PNG",
+            "product_image2": "products_images/d2.PNG"
+        },
+        {
+            "id": 6,
+            "product_name": "OE Wheels LLC 22 inch Rim Fits 6x139.7 Silverado Suburban",
+            "price": 1,
+            "description": "Size\t22\r\nBrand\tOE Wheels LLC\r\nWheel Size\t22 Inches\r\nPitch Circle Diameter\t139.7 Millimeters\r\nItem Weight\t47 Pounds\r\nItem Diameter\t22 Inches\r\n\r\nMPN: 8579267 - Hollander Number: 5309\r\nBolt Pattern: 6x139.7 // Wheel Offset: 31mm // Back Spacing: 6.22mm\r\nWheel Size: 22X9 // Hub Size: 78.1mm // Wheel Finish: Chrome\r\nLifetime structural, one year face finish warranty\r\nTire Pressure Monitoring System (TPMS) Compatible",
+            "short_description": "Size\t22 Brand\tOE Wheels LLC Wheel Size\t22 Inches Pitch Circle Diameter\t139.7 Millimeters Item Weight\t47 Pounds Item Diameter\t22 Inches",
+            "product_image1": "products_images/s1.PNG",
+            "product_image2": "products_images/s2.PNG"
+        },
+        {
+            "id": 7,
+            "product_name": "Combination Ended Spanner kits",
+            "price": 1,
+            "description": "Flexible Head & 72-Tooth Ratchet: The 180 Degree Flex-Head Can Conduct The Projects In Some Awkward Places Easily And Effortlessly The 72-Tooth Ratchet Gears Need Only A 5-Degree Of Working Swing Arc To Reach To The Next Tooth Position\r\nAdvanced Quality & Sturdy Tool: Forged From High-Quality Chrome Vanadium Steel With Mirror Polished Surface These Wrenches Are Sturdy More Durable And More Corrosion Resistant\r\n12 Pcs Common Metric Size: These Wrenches Measure In Metric Size Including 8Mm 9Mm 10Mm 11Mm 12Mm 13Mm 14Mm 15Mm 16Mm 17Mm 18Mm And 19Mm\r\nWidely Application: Its Premium Design Makes It Widely Apply Into Fastening Or Loosening Nuts And Bolts In Many Narrow Spaces It Can Be Used For Pipeline Repair Home Maintainance Mechanic Repair Auto & Bicycle Repair",
+            "short_description": "Color\tBlack + Red Brand\tEastvolt Material\tChrome Vanadium Steel Item Weight\t5 Pounds Item Package Quantity",
+            "product_image1": "products_images/k2.PNG",
+            "product_image2": "products_images/k1.PNG"
+        },
+        {
+            "id": 8,
+            "product_name": "Prostormer Flex Head Ratcheting Wrench Set",
+            "price": 1,
+            "description": "About this item\r\nKindly Tip : Ratchet has maximum torque, Using over the maximum torque will damage Ratchet\r\n14Pcs SAE Wrenches : This wrench set includes normal size 1/4\", 9/32\u201d, 5/16\", 11/32\", 3/8\", 7/16\", 1/2\", 9/16\", 19/32\u201d 5/8\", 11/16\", 3/4\" ,13/16\u201d,7/8\u201d\r\nHigh Quality : The wrench set is forged from chrome vanadium steel. The surface is fully polished through heat treatment, good toughness, high hardness and corrosion resistance\r\n72 Tooth Gear : The 72-tooth ratchet gears need only a 5-degree working swing arc when using more time-saving energy\r\nFlex Head Design : The 180-degree flex head can be rotated arbitrarily and can reach to awkward places where most ratchet wrenches would not reach Better suited for use in complex workplaces\r\nPortable Wrench Set : The ratcheting wrench set includes a folding handle bracket for space saving and easy carrying, as well as a non-slip grip for locking the wrench.",
+            "short_description": "Brand\tProstormer Material\tChrome Vanadium Steel Item Length\t11.22 Inches Item Package Quantity\t1 Head Style\tFlex",
+            "product_image1": "products_images/p1.PNG",
+            "product_image2": "products_images/p2.PNG"
+        },
+        {
+            "id": 9,
+            "product_name": "150 PCS Mechanical Tool Socket",
+            "price": 1,
+            "description": "About this item\r\nWide range applications such as car maintenance, motorcycle maintenance, furniture assembly, home maintenance work, equipment inspection and repair, etc.;\r\nMade from premium-quality chrome vanadium steel with a matte chrome plated finish;\r\nMetric and SAE socket sizes combined;\r\nSturdy Case provides for convenient tool storage;\r\nIncludes a collection of the most popular sockets, ratchets, wrenches, bits and universal joint: (10) 1/4\" Dr. Sockets, (6) 1/4\" Dr. Deep Sockets, (11) 3/8\" Dr. Sockets, (6) 3/8\" Deep Sockets, (8) 3/8\" Dr. Torx Sockets, (4) 1/2\" Dr. Impact Sockets, (7) 1/2\" Dr. Sockets, (6) 1/2\" Deep Sockets, (4) 1/2\" Dr. Sockets (SAE), (9) 3/8\" Dr. Sockets (SAE), (10) 1/4\" Dr. Sockets (SAE), (1) 1/4\" Dr. Spinner Handle, (1) 1/4\" Dr. Extension Bars, (2) 3/8\" Dr. Extension Bars, (2) 1/2\" Dr. Extension Bars, (2) 3/8\" Dr. Spark Plug Socket, (22) 3/8\" Dr. Bit Sockets, (18) 1/4\" Dr. Bit, (3) Universal Joint, (3) Quick Release Ratchet Handle, (12) Spanners, (3) Double Ended Ratchet Ring Spanners.",
+            "short_description": "Brand\tFASTENPOWER Material\tChrome Vanadium Steel Item Package Quantity\t1 Head Style\tHex Finish Type\tChrome",
+            "product_image1": "products_images/kt1.PNG",
+            "product_image2": "products_images/kt2.PNG"
+        },
+        {
+            "id": 10,
+            "product_name": "Potreba inner tube",
+            "price": 1,
+            "description": "About this item\r\nBrand\tPotreba\r\nSeasons\tYear Round\r\nSize\t3.00-4\r\nSection Width\t700 Millimeters\r\nLoad Capacity\t130 Pounds\r\nTread Depth\t3 Inches\r\nTread Type\tSymmetrical\r\n4.10/3.50-4 tube great for replacement tires ,wheelbarrow parts, hand trucks, wagon tires\r\n10\" outside diameter tire tube fits small commercial truck tires, lawn mower wheels, lawn cart\r\nSolid rubber - heavy-duty inner tube will support generator, lawn mower trailer, tractor tires\r\nGolf cart tube tire has curved stem TR87 for hand truck wheels replacement\r\n30 psi pressure in 3.00-4 tire - replacing hand truck tire tubes has so quick",
+            "short_description": "Brand\tPotreba Seasons\tYear Round Size\t3.00-4 Section Width\t700 Millimeters Load Capacity\t130 Pounds Tread Depth\t3 Inches Tread Type\tSymmetrical",
+            "product_image1": "products_images/t1.PNG",
+            "product_image2": "products_images/t2.PNG"
+        },
+        {
+            "id": 11,
+            "product_name": "AUTOSAVER88 Tow Mirrors Compatible",
+            "price": 1,
+            "description": "About this item\r\n\r\nAuto Part Position\tFront Right Outer, Front Left Outer\r\nItem dimensions L x W x H\t21.85 x 13.78 x 14.96 inches\r\nBrand\tAUTOSAVER88\r\nColor\tBlack\r\nMounting Type\tDoor Mount\r\nIncluded Components\tTowing Mirror Set\r\nSpecial Feature\tmanual Folding, Turn Arrow, Power Heated, Extendable, Dual Lens\r\nItem Weight\t19.18 Pounds\r\nSize\tDriver and Passenger Side\r\nShape\tRectangular\r\nSupported models: vertical trailer tow mirrors are compatible with 2007 Chevy Silverado GMC Sierra New Body Style ONLY, 2008 - 2013 Chevy Silverado GMC Sierra All Models, 2007 - 2013 Avalanche 1500 Suburban 1500 2500 Tahoe / GMC Yukon Yukon XL Yukon Denali, 2014 Chevy Silverado 2500HD 3500HD\r\nTelescoping & turn signal\uff1ait can be manually extended to help you identify vehicles and surroundings that might be in a blind spot; and arrow LED turn signal increases safety of turning or changing lanes\r\nPower heated: this plane mirror can remove the frost and mist to keep it clear when driving in rain and snowfall weather\r\nPrecise fit: these outside rearview mirrors are precisely designed, very quick and easy to install; sold as a pair, including LH (driver side) & RH (passenger side)\r\nNote: if your vehicle doesn't have the listed functions(such as turn signal), it might not function well; please disable the memory function on D.I.C if your vehicle with memory mirror module; professional installation would be highly recommended",
+            "short_description": "AUTOSAVER88 Tow Mirrors Compatible with 2007-2014 Chevy Silverado GMC Sierra, Power Heated Driver and Passenger Side Replacement Towing Mirror Set with Turn Signal and Dual Glass",
+            "product_image1": "products_images/sm1.PNG",
+            "product_image2": "products_images/sm2.PNG"
+        },
+        {
+            "id": 12,
+            "product_name": "Centric Wheel Spacer Set",
+            "price": 1,
+            "description": "\u3010Basic Info\uff1a\u3011Wheel Spacers Compatible with Toyota 4Runner 1996-2022, Toyota FJ Cruiser 2007-2014, Toyota Sequoia 2001-2007, Toyota Tacoma 2002-2022, Tundra 2000-2006, Lexus GX470 2003-2009, Lexus GX460 2010-2022. Please check the detail fitting info from the pics or detail page. 12 months warranty and lifetime after-sales service are furnished after bought our products. Please choose a suitable one with confidence.\r\n\u3010Product Specs\uff1a\u30111.5 inch/38 mm Thickness | 6x139.5 mm Wheel Bolt Pattern | 106 mm Center Bore | M12x1.5 Thread Pitch.\r\n\u3010Features of Hubcentric Wheel Spacer\uff1a\u3011 For your driving safety, we continue to improve, using aviation 6061 aluminum forging, CNC integrated molding, surface through anodic oxidation treatment, to ensure accuracy and wear resistance, 10.9 class bolts; all BDFHYK wheel spacer certified by IATF 16949:2016 quality system.\r\n\u3010Product Advantages\uff1a\u3011 Widen the wheel spacing to make the vehicle look more dynamic and aggressive. Make more space inside the wheels for installing new suspension, brakes and other accessories. Improve the grip, stability, and handling of the vehicle during the driving process, so that the vehicle can be installed with larger and wider tires.\r\n\u3010About BDFHYK\uff1a\u3011A professional auto parts manufacturer with mature industry lines. We have our factory and experienced developer. It's been more than 10 years that we have served different customers from different areas. We do our best to hear from customers and update our products. If you have more problems, please be free to contact us. Choose BDFHYK; choose good service.",
+            "short_description": "\u3010Basic Info\uff1a\u3011Wheel Spacers Compatible with Toyota 4Runner 1996-2022, Toyota FJ Cruiser 2007-2014, Toyota Sequoia 2001-2007, Toyota Tacoma 2002-2022, Tundra 2000-2006, Lexus GX470 2003-2009, Lexus GX460 2010-2022. Please check the detail fitting info from",
+            "product_image1": "products_images/ss1.PNG",
+            "product_image2": "products_images/ss2.PNG"
+        }
+    ],
+    "auto_parts_cartitem": [
+        {
+            "id": 4,
+            "quantity": 3,
+            "cart_id": 3,
+            "product_id": 2
+        },
+        {
+            "id": 6,
+            "quantity": 1,
+            "cart_id": 3,
+            "product_id": 6
+        },
+        {
+            "id": 7,
+            "quantity": 2,
+            "cart_id": 2,
+            "product_id": 3
+        },
+        {
+            "id": 8,
+            "quantity": 1,
+            "cart_id": 4,
+            "product_id": 2
+        },
+        {
+            "id": 10,
+            "quantity": 1,
+            "cart_id": 6,
+            "product_id": 3
+        },
+        {
+            "id": 11,
+            "quantity": 1,
+            "cart_id": 6,
+            "product_id": 2
+        },
+        {
+            "id": 12,
+            "quantity": 1,
+            "cart_id": 1,
+            "product_id": 2
+        },
+        {
+            "id": 13,
+            "quantity": 2,
+            "cart_id": 7,
+            "product_id": 2
+        }
+    ],
+    "auto_parts_cart": [
+        {
+            "id": 1,
+            "customuser_id": 1
+        },
+        {
+            "id": 2,
+            "customuser_id": 1
+        },
+        {
+            "id": 3,
+            "customuser_id": 1
+        },
+        {
+            "id": 4,
+            "customuser_id": 1
+        },
+        {
+            "id": 6,
+            "customuser_id": 1
+        },
+        {
+            "id": 7,
+            "customuser_id": 1
+        }
+    ],
+    "garage_complainmessage": [
+        {
+            "id": 4,
+            "message": "hello I wasn't happy ....",
+            "email": "gachombajames7@gmail.com"
+        },
+        {
+            "id": 5,
+            "message": "Hey gmotions team, Am really not happy about your services.",
+            "email": "gachombajames7@gmail.com"
+        },
+        {
+            "id": 6,
+            "message": "Hey not really happy of your services.",
+            "email": "gachombajames7@gmail.com"
+        }
+    ],
+    "garage_garage_services": [
+        {
+            "id": 1,
+            "garage_name": "Cornerstone Autorepair",
+            "garage_location": "Nakuru",
+            "garage_image": "garages/garage.jpg",
+            "garage_contacts": 2547123456
+        },
+        {
+            "id": 2,
+            "garage_name": "Peek Perfomance Garage",
+            "garage_location": "Kisii",
+            "garage_image": "garages/garage2_Z721Z0U.jpg",
+            "garage_contacts": 2547654321
+        },
+        {
+            "id": 3,
+            "garage_name": "The Mechanic's Sanctuary",
+            "garage_location": "Nairobi",
+            "garage_image": "garages/garage3_RlsZ6gD.jpg",
+            "garage_contacts": 25479876543
+        },
+        {
+            "id": 4,
+            "garage_name": "The Steel Stable",
+            "garage_location": "Kisumu",
+            "garage_image": "garages/garage4.PNG",
+            "garage_contacts": 25412345678
+        },
+        {
+            "id": 5,
+            "garage_name": "Move with us",
+            "garage_location": "Mombasa",
+            "garage_image": "garages/garage5.PNG",
+            "garage_contacts": 254741194238
+        },
+        {
+            "id": 6,
+            "garage_name": "Fixit",
+            "garage_location": "Eldoret",
+            "garage_image": "garages/garage6_iUH94bX.PNG",
+            "garage_contacts": 254776083792
+        },
+        {
+            "id": 7,
+            "garage_name": "Tire & Tread Tavern",
+            "garage_location": "Molo",
+            "garage_image": "garages/garage7.PNG",
+            "garage_contacts": 25475112893
+        },
+        {
+            "id": 8,
+            "garage_name": "Brake Point Garage",
+            "garage_location": "Nyandarua",
+            "garage_image": "garages/garage8.PNG",
+            "garage_contacts": 254768532
+        },
+        {
+            "id": 9,
+            "garage_name": "Car Tune-Up Cove",
+            "garage_location": "Narok",
+            "garage_image": "garages/garage9.PNG",
+            "garage_contacts": 254741194238
+        }
+    ],
+    "payments_order": [
+        {
+            "id": 1,
+            "phone": "peejaycoscos@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 09:51:04.802345"
+        },
+        {
+            "id": 2,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 09:52:40.115759"
+        },
+        {
+            "id": 3,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 10:19:56.769914"
+        },
+        {
+            "id": 4,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 10:21:27.098794"
+        },
+        {
+            "id": 5,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 10:29:22.116187"
+        },
+        {
+            "id": 6,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 10:33:23.304848"
+        },
+        {
+            "id": 7,
+            "phone": "briankachumba4@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 11:08:59.280198"
+        },
+        {
+            "id": 8,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 200,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 15:13:36.855655"
+        },
+        {
+            "id": 9,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 200,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-09 15:13:46.225901"
+        },
+        {
+            "id": 10,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 200,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 09:47:23.272025"
+        },
+        {
+            "id": 11,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 13:21:45.696363"
+        },
+        {
+            "id": 12,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 14:30:50.863277"
+        },
+        {
+            "id": 13,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 14:40:59.775431"
+        },
+        {
+            "id": 14,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 14:54:17.240246"
+        },
+        {
+            "id": 15,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 15:08:52.292113"
+        },
+        {
+            "id": 16,
+            "phone": "feibitutu67@gmail.com",
+            "address": "hs 12",
+            "total_price": 200,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 15:53:37.667593"
+        },
+        {
+            "id": 17,
+            "phone": "faithbitutu67@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-10 15:55:20.207848"
+        },
+        {
+            "id": 18,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-11 06:49:12.742606"
+        },
+        {
+            "id": 19,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-11 07:01:58.858832"
+        },
+        {
+            "id": 20,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-11 07:02:21.838316"
+        },
+        {
+            "id": 21,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-11 09:18:40.737250"
+        },
+        {
+            "id": 22,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 200,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-11 09:24:55.526216"
+        },
+        {
+            "id": 23,
+            "phone": "gachombajames7@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-18 09:42:02.472001"
+        },
+        {
+            "id": 24,
+            "phone": "carencherotich41@gmail.com",
+            "address": "hs 12",
+            "total_price": 480,
+            "status": "Pending",
+            "payment_method": "Pay on Delivery",
+            "order_date": "2024-12-21 08:23:40.533145"
+        }
+    ],
+    "django_session": [
+        {
+            "session_key": "qcxkcf24gmudxtc0xgeztmsy39xzbhsk",
+            "session_data": ".eJxVjDsOwjAQBe_iGlmb-E9JnzNY9nqNA8iW4qRC3J1ESgHtm5n3Zj5sa_Fbp8XPiV2ZZZffLQZ8Uj1AeoR6bxxbXZc58kPhJ-18aolet9P9Oyihl71GkxPEQYOSUiAgKgAbFI4jRWlTdE6S0DabkJGEszRkyG4HykkwOrPPF-ufOBc:1tQ80c:AMTze8X0F_eK2Jok6yCbTKYJyvUbIDZv7QRa6tiAke0",
+            "expire_date": "2025-01-07 16:43:50.462525"
+        },
+        {
+            "session_key": "wueqxomber1ivnrc3lpr4bb1imqe8pxz",
+            "session_data": ".eJxVjDsOwjAQBe_iGlmb-E9JnzNY9nqNA8iW4qRC3J1ESgHtm5n3Zj5sa_Fbp8XPiV2ZZZffLQZ8Uj1AeoR6bxxbXZc58kPhJ-18aolet9P9Oyihl71GkxPEQYOSUiAgKgAbFI4jRWlTdE6S0DabkJGEszRkyG4HykkwOrPPF-ufOBc:1tVV5C:tpUKpmG5OKTiu3qkNF-uk9DeQmuOFab5rucYAXPkB6c",
+            "expire_date": "2025-01-22 12:22:46.468026"
+        },
+        {
+            "session_key": "lq5ubgqqs0tm0k9e49h0pf437xaiidnk",
+            "session_data": ".eJxVjDsOwjAQBe_iGlmb-E9JnzNY9nqNA8iW4qRC3J1ESgHtm5n3Zj5sa_Fbp8XPiV2ZZZffLQZ8Uj1AeoR6bxxbXZc58kPhJ-18aolet9P9Oyihl71GkxPEQYOSUiAgKgAbFI4jRWlTdE6S0DabkJGEszRkyG4HykkwOrPPF-ufOBc:1tXHIu:noOWkgFyDlyTkFTAHg8KVyEdzs7Ml4YXeGG-EPHKxc8",
+            "expire_date": "2025-01-27 10:04:16.561792"
+        },
+        {
+            "session_key": "ymhbj04un1cgd8c4jiwts9h5ymedivh7",
+            "session_data": ".eJxVjEEOwiAQRe_C2hACgw4u3XsGMgNTqRpISrtqvLsh6UK3_733dxVpW0vcuixxzuqqQJ1-N6b0kjpAflJ9NJ1aXZeZ9VD0Qbu-tyzv2-H-HRTqZdQhg3UMLhhx3qFFzFaCnxyjI0sez14Ck3i-MFhjEKfkARMzmAyiPl_P5jev:1tZt2s:ibdQW8DQrz59tc5pHgvOQe0VbzIToq7aQcOd0ccQTMU",
+            "expire_date": "2025-02-03 14:46:30.430959"
+        }
+    ]
+}

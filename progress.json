@@ -1,0 +1,13 @@
+{
+    "auth_permission": 55,
+    "user_authentication_customuser": 6,
+    "django_admin_log": 64,
+    "adverts_adminmessage": 4,
+    "adverts_cars": 30,
+    "auto_parts_products": 10,
+    "auto_parts_cartitem": 7,
+    "garage_complainmessage": 2,
+    "garage_garage_services": 7,
+    "payments_order": 23,
+    "django_session": 3
+}

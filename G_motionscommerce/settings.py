@@ -27,9 +27,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-$ge7&*(#qx3uki#ha5&wjps#jewb488exzgu^re&e(utompcps'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'g-motions.onrender.com']
 
 
 # Application definition
@@ -82,10 +83,20 @@ WSGI_APPLICATION = 'G_motionscommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": 'django.db.backends.postgresql',
+        "NAME": "g_motions",
+        "USER": "g_motions_user",
+        "PASSWORD": "E3ohbqZuMTdu1UucUvSKXtyugYFdQQJ9",
+        "HOST": "dpg-cu7olgdsvqrc739aav2g-a.oregon-postgres.render.com",
+        "PORT": "5432",
     }
 }
 
