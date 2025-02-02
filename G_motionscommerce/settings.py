@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-$ge7&*(#qx3uki#ha5&wjps#jewb488exzgu^re&e(utompcps
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'g-motions.onrender.com', 'g-motions.vercel.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'g-motions.onrender.com', 'g-motions.vercel.app']
 
 
 # Application definition
