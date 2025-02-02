@@ -15,7 +15,7 @@
             max-width: 400px;
             margin: auto;
             padding: 30px;
-            background: white; /* White background for the form */
+            background: lavender; /* White background for the form */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Box shadow for depth */
         }
@@ -36,9 +36,21 @@
             margin-right: 10px;
             cursor: pointer;
         }
+        .social-links a {
+            color: white; /* Social links color */
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0,0,0,0.9); 
+            color: white; 
+            border-radius: 10px;
+        }
     </style>
 </head>
-<body style="background-color: #C0C0C0">
+<body style="background-color: white">
 <div class="container mt-5">
     <div class="signup-container">
         <h1>G MOTIONS</h1>
@@ -72,6 +84,16 @@
         <p class="mt-3">
             Already have an account? <a href="{% url 'login' %}" class="btn btn-link">Log in</a>
         </p>
+            <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        <br>
+        <br>
+        <p>&copy; 2024 G MOTIONS. All rights reserved.</p>
+    </footer>
     </div>
 </div>
 

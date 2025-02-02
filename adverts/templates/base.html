@@ -9,29 +9,31 @@
 {#    <link rel="stylesheet" href="{% static 'css/style.css' %}">#}
     <style>
         .navbar {
-            background-color: #003366; /* Navy blue */
+            background-color: lightskyblue; /* Navy blue */
             position: sticky;
             top: 0;
             z-index: 1000;
+            border-radius: 10px;
         }
         .navbar-brand, .nav-link {
-            color: white !important;
+            color: black !important;
         }
         .nav-link:hover {
-            color: #FFD700 !important; /* Gold on hover */
+            color: goldenrod !important; /* Gold on hover */
         }
         .card {
             border: none;
             border-radius: 10px; /* Rounded corners */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Shadow for depth */
+            background-color: lavender;
         }
     </style>
 </head>
-<body style="background-color: #C0C0C0">
+<body style="background-color: white">
 <header>
     <nav class="navbar navbar-expand-lg" style="font-size: 25px;">
         <div class="container">
-            <a class="navbar-brand" href="#">G MOTIONS</a>
+            <a class="navbar-brand" href="#"><b>G MOTIONS</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

@@ -1,1 +1,0 @@
-web: gunicorn G_motionscommerce.wsgi:application

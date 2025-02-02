@@ -10,7 +10,7 @@
     <style>
         .navbar {
             text-align: center;
-            background-color: navy; /* Change background color for better visibility */
+            background-color: lightskyblue; /* Change background color for better visibility */
             padding: 20px;
             font-size: 30px;
         }
@@ -20,31 +20,31 @@
         }
     </style>
 </head>
-<body style="background-color: #C0C0C0">
+<body style="background-color: white; font-size: 16px">
     <header>
-    <nav class="navbar navbar-expand-lg" style="font-size: 25px; background-color: navy">
+    <nav class="navbar navbar-expand-lg" style="font-size: 25px; background-color: lightskyblue">
         <div class="container">
-            <a class="navbar-brand" href="#">G motions</a>
-            <a class="nav-link" href="{% url 'cart' %}" style="color:wheat">Cart</a>
+            <a class="navbar-brand" href="#" style="font-size: 25px"><b>G motions</b></a>
+            <a class="nav-link" href="{% url 'cart' %}" style="color:wheat; font-size: 25px">Cart</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'home_view' %}">Dashboard</a>
+                        <a class="nav-link" href="{% url 'home_view' %}" style="font-size: 25px">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'about' %}">About</a>
+                        <a class="nav-link" href="{% url 'about' %}" style="font-size: 25px">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'products_listing' %}">Marketplace</a>
+                        <a class="nav-link" href="{% url 'products_listing' %}" style="font-size: 25px">Marketplace</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'cars_list' %}">Showroom</a>
+                        <a class="nav-link" href="{% url 'cars_list' %}" style="font-size: 25px">Showroom</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'garage_list' %}">Garage</a>
+                        <a class="nav-link" href="{% url 'garage_list' %}" style="font-size: 25px">Garage</a>
                     </li>
                 </ul>
             </div>

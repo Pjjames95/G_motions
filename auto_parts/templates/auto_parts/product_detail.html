@@ -28,9 +28,9 @@
             <p><strong>Description:</strong> {{ product.description }}</p>
             <form action="{% url 'add_to_cart' product.id %}" method="post">
                 {% csrf_token %}
-                <button type="submit" class="btn btn-secondary mt-3">Add to Cart</button>
+                <button type="submit" class="btn btn-secondary mt-3"><b>Add to Cart</b></button>
             </form>
-            <a href="{% url 'products_listing' %}" class="btn btn-secondary mt-3">Back to List</a>
+            <a href="{% url 'products_listing' %}" class="btn btn-secondary mt-3"><b>Back to Lists</b></a>
         </div>
     </div>
 </main>

@@ -14,13 +14,15 @@
             font-family: 'Roboto', sans-serif;
         }
         .navbar {
-            background-color: #003366; /* Navy blue */
+            background-color: lightskyblue; /* Navy blue */
+            color: black;
+            border-radius: 10px;
         }
         .navbar-brand, .nav-link {
-            color: white !important;
+            color: black !important;
         }
         .nav-link:hover {
-            color: #FFD700 !important; /* Gold on hover */
+            color: goldenrod !important; /* Gold on hover */
         }
         .hero {
             background: url("{% static 'images/logo1.PNG' %}") no-repeat center center;
@@ -39,13 +41,14 @@
         .section {
             padding: 60px 20px;
             text-align: center;
-            background-color: rgba(0,0,0,0.5);
+            background-color: lavender;
         }
         footer {
-            background-color: #343a40; /* Dark background */
-            color: white;
             text-align: center;
             padding: 20px 0;
+            background-color: rgba(0,0,0,0.9); 
+            color: white; 
+            border-radius: 10px;
         }
         .social-links a {
             color: white; /* Social links color */
@@ -142,12 +145,14 @@
             </div>
 </section>
 <footer>
-    <p>&copy; 2024 G MOTIONS. All rights reserved.</p>
     <div class="social-links">
         <a href="https://facebook.com" target="_blank">Facebook</a>
         <a href="https://twitter.com" target="_blank">Twitter</a>
         <a href="https://instagram.com" target="_blank">Instagram</a>
     </div>
+    <br>
+    <br>
+    <p>&copy; 2024 G MOTIONS. All rights reserved.</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

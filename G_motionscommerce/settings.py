@@ -27,8 +27,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-$ge7&*(#qx3uki#ha5&wjps#jewb488exzgu^re&e(utompcps'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'g-motions.onrender.com']
 
@@ -83,6 +83,12 @@ WSGI_APPLICATION = 'G_motionscommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+from pathlib import Path
+
+# Define BASE_DIR as a Path object
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Database configuration
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -131,10 +137,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # settings.py
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://4c29-41-89-196-26.ngrok-free.app',  # Replace with your actual ngrok URL
-    # You can add more trusted origins here
-]
+CSRF_TRUSTED_ORIGINS = []
 
 
 
@@ -163,5 +166,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Heroku settings.
+import django_heroku
+django_heroku.settings(locals())
+
 
 
