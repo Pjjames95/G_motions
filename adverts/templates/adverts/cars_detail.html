@@ -10,13 +10,13 @@
     <h2 class="mb-4">{{ car.car_name }}</h2>
     <div class="row">
         <div class="col-md-6 mb-4">
-            {% if car.car_image %}
-                <img src="{{ car.car_image.url }}" alt="{{ car.car_name }} - Image 1" class="img-fluid" style="max-height: 400px; object-fit: cover;">
+            {% if car.car_image_url %}
+                <img src="{{ car.car_image_url }}" alt="{{ car.car_name }} - Image 1" class="img-fluid" style="max-height: 400px; object-fit: cover;">
             {% else %}
                 <img src="https://via.placeholder.com/400x300" alt="No image available for {{ car.car_name }}" class="img-fluid" style="max-height: 400px; object-fit: cover;">
             {% endif %}
-            {% if car.car_image2 %}
-                <img src="{{ car.car_image2.url }}" alt="{{ car.car_name }} - Image 2" class="img-fluid mt-3" style="max-height: 400px; object-fit: cover;">
+            {% if car.car_image2_url %}
+                <img src="{{ car.car_image2_url }}" alt="{{ car.car_name }} - Image 2" class="img-fluid mt-3" style="max-height: 400px; object-fit: cover;">
             {% else %}
                 <img src="https://via.placeholder.com/400x300" alt="No second image available for {{ car.car_name }}" class="img-fluid mt-3">
             {% endif %}
@@ -43,6 +43,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 {% endblock %}
+
 
 
 

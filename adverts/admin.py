@@ -6,7 +6,7 @@ from .forms import CarsForm, AdminMessageForm
 @admin.register(Cars)
 class CarsAdmin(admin.ModelAdmin):
     form = CarsForm
-    list_display = ('car_name', 'car_make', 'car_model', 'property_1', 'property_2', 'description', 'car_image', 'short_description')
+    list_display = ('car_name', 'car_make', 'car_model', 'property_1', 'property_2', 'description', 'car_image_url', 'short_description')
 
     def save_model(self, request, obj, form, change):
         if form.is_valid():

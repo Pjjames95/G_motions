@@ -70,8 +70,8 @@
                 {% for car in cars %}
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                        {% if car.car_image %}
-                            <img class="card-img-top" src="{{ car.car_image.url }}" alt="{{ car.car_name }}" style="max-height: 250px; object-fit: cover;">
+                        {% if car.car_image_url %}
+                            <img class="card-img-top" src="{{ car.car_image_url.url }}" alt="{{ car.car_name }}" style="max-height: 250px; object-fit: cover;">
                         {% else %}
                             <img class="card-img-top" src="https://via.placeholder.com/150" alt="No image available for {{ car.car_name }}">
                         {% endif %}
