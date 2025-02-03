@@ -83,28 +83,27 @@ WSGI_APPLICATION = 'G_motionscommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+import os
 from pathlib import Path
 
-# Define BASE_DIR as a Path object
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Database configuration
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 # DATABASES = {
-#     "default": {
-#         "ENGINE": 'django.db.backends.postgresql',
-#         "NAME": "g_motions",
-#         "USER": "g_motions_user",
-#         "PASSWORD": "E3ohbqZuMTdu1UucUvSKXtyugYFdQQJ9",
-#         "HOST": "dpg-cu7olgdsvqrc739aav2g-a.oregon-postgres.render.com",
-#         "PORT": "5432",
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.environ.get('DB_PATH', BASE_DIR / 'db.sqlite3'),
 #     }
 # }
+DATABASES = {
+    "default": {
+        "ENGINE": 'django.db.backends.postgresql',
+        "NAME": "g_motions_61e0",
+        "USER": "g_motions_61e0_user",
+        "PASSWORD": "Dv2IoIZayHXUoBu9mH99OGAys2ZlsFfX",
+        "HOST": "dpg-cufq463tq21c73f8occ0-a.oregon-postgres.render.com",
+        "PORT": "5432",
+    }
+}
 
 
 #email credentials
