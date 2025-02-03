@@ -6,7 +6,7 @@ from .forms import GarageForms, ComplainMessageForm
 @admin.register(Garage_services)
 class GarageAdmin(admin.ModelAdmin):
     form = GarageForms
-    list_display = ('garage_name', 'garage_location', 'garage_image', 'garage_contacts')
+    list_display = ('garage_name', 'garage_location', 'garage_image_url', 'garage_contacts')
 
 @admin.register(ComplainMessage)
 class ComplainMessageAdmin(admin.ModelAdmin):

@@ -88,9 +88,9 @@
                     <p class="card-text"><strong>Username:</strong> {{ user.username }}</p>
                     <p class="card-text"><strong>Email:</strong> {{ user.email }}</p>
                     <p class="card-text"><strong>Bio:</strong> {{ user.bio }}</p>
-                    {% if user.profile_image %}
+                    {% if user.profile_image_url %}
                         <p><strong>Profile Image:</strong></p>
-                        <img src="{{ user.profile_image.url }}" alt="{{ user.username }}'s profile image" class="img-fluid rounded">
+                        <img src="{{ user.profile_image_url }}" alt="{{ user.username }}'s profile image" class="img-fluid rounded">
                     {% endif %}
                     <a href="{% url 'profile_update' %}" class="btn btn-primary rounded">Update Profile</a>
                     <a href="{% url 'login' %}" class="btn btn-danger">Log out</a>

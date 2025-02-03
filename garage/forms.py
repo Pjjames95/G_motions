@@ -4,7 +4,7 @@ from .models import Garage_services, ComplainMessage
 class GarageForms(forms.ModelForm):
     class Meta:
         model = Garage_services
-        fields = ['garage_name', 'garage_location', 'garage_image', 'garage_contacts']
+        fields = ['garage_name', 'garage_location', 'garage_image_url', 'garage_contacts']
 
 
 class ComplainMessageForm(forms.ModelForm):

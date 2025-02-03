@@ -76,13 +76,13 @@
                 <article class="mb-4">
                     <h4>{{ result.product_name }}</h4>
                     <p>{{ result.description }}</p>
-                    {% if result.product_image1 %}
-                        <img src="{{ result.product_image1.url }}" alt="{{ result.product_name }}" class="img-fluid mb-2" style="max-height: 250px; object-fit: cover;">
+                    {% if result.product_image_url %}
+                        <img src="{{ result.product_image_url }}" alt="{{ result.product_name }}" class="img-fluid mb-2" style="max-height: 250px; object-fit: cover;">
                     {% else %}
                         <img src="https://via.placeholder.com/150" alt="No image available" class="img-fluid">
                     {% endif %}
-                    {% if result.product_image2 %}
-                        <img src="{{ result.product_image2.url }}" alt="{{ result.product_name }}" class="img-fluid" style="max-height: 400px; object-fit: cover;">
+                    {% if result.product_image2_url %}
+                        <img src="{{ result.product_image2_url }}" alt="{{ result.product_name }}" class="img-fluid" style="max-height: 400px; object-fit: cover;">
                     {% endif %}
                     <form action="{% url 'add_to_cart' result.id %}" method="post">
                         {% csrf_token %}

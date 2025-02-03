@@ -8,8 +8,8 @@ class Products(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     description = models.TextField()
     short_description = models.CharField(max_length=255)
-    product_image1 = models.ImageField(upload_to='products_images/')
-    product_image2 = models.ImageField(upload_to='products_images/')
+    product_image_url = models.URLField(max_length=200, default='default_image.png')
+    product_image2_url = models.URLField(max_length=200, default='default_image.png')
 
 
     def __str__(self):

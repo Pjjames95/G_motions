@@ -20,9 +20,9 @@ class CustomUserUpdateForm(forms.ModelForm):
     bio = forms.CharField(widget=forms.Textarea(attrs={'placeholder': 'Bio'}))
     class Meta:
         model = CustomUser
-        fields = ['username', 'email', 'alternative_password', 'profile_image', 'bio', 'completed']
+        fields = ['username', 'email', 'alternative_password', 'profile_image_url', 'bio', 'completed']
 
 class CustomUserChangeForm(forms.ModelForm):
     class Meta:
         model = CustomUser
-        fields = ['username', 'email', 'alternative_password', 'profile_image', 'bio', 'completed']
+        fields = ['username', 'email', 'alternative_password', 'profile_image_url', 'bio', 'completed']

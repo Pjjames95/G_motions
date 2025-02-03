@@ -13,8 +13,8 @@
         {% for garage_service in garage_services %}
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    {% if garage_service.garage_image %}
-                        <img class="card-img-top" src="{{ garage_service.garage_image.url }}" alt="{{ garage_service.garage_name }} image" style="max-height: 250px; object-fit: cover;">
+                    {% if garage_service.garage_image_url %}
+                        <img class="card-img-top" src="{{ garage_service.garage_image_url }}" alt="{{ garage_service.garage_name }} image" style="max-height: 250px; object-fit: cover;">
                     {% else %}
                         <img class="card-img-top" src="https://via.placeholder.com/400x250" alt="No image available" style="max-height: 250px; object-fit: cover;">
                     {% endif %}
