@@ -2,7 +2,7 @@ from django.db import models
 from django.utils import timezone
 
 class Order(models.Model):
-    phone = models.CharField(max_length=15)
+    phone = models.CharField(max_length=40)
     address = models.CharField(max_length=255)
     total_price = models.DecimalField(max_digits=10, decimal_places=2)
     status = models.CharField(max_length=50, default='Pending')
