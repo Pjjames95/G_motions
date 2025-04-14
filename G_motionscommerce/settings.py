@@ -94,7 +94,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://g_motions_61e0_user:Dv2IoIZayHXUoBu9mH99OGAys2ZlsFfX@dpg-cufq463tq21c73f8occ0-a.oregon-postgres.render.com:5432/g_motions_61e0',
+        default='postgresql://g_motions_mq4j_user:bbeOl3LtG00FD4zjKX90IQGzGIkRKe2t@dpg-cvuc7nvgi27c73ah6rpg-a.oregon-postgres.render.com:5432/g_motions_mq4j',
         conn_max_age=600
     )
 }
