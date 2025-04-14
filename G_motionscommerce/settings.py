@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import os
 from pathlib import Path
 import dj_database_url
+import environ
+
+env = environ.Env()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,13 +26,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-
+environ.Env.read_env( BASE_DIR/ '.env')
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$ge7&*(#qx3uki#ha5&wjps#jewb488exzgu^re&e(utompcps'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = False
+DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = ['127.0.0.1', 'g-motions.onrender.com', 'g-motions.vercel.app', 'http://0.0.0.0:8000']
 
@@ -94,7 +97,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://g_motions_mq4j_user:bbeOl3LtG00FD4zjKX90IQGzGIkRKe2t@dpg-cvuc7nvgi27c73ah6rpg-a.oregon-postgres.render.com:5432/g_motions_mq4j',
+        default= env('default'),
         conn_max_age=600
     )
 }
@@ -104,16 +107,7 @@ DATABASES = {
 #         'NAME': os.environ.get('DB_PATH', BASE_DIR / 'db.sqlite3'),
 #     }
 # }
-# DATABASES = {
-#     "default": {
-#         "ENGINE": 'django.db.backends.postgresql',
-#         "NAME": "g_motions_61e0",
-#         "USER": "g_motions_61e0_user",
-#         "PASSWORD": "Dv2IoIZayHXUoBu9mH99OGAys2ZlsFfX",
-#         "HOST": "dpg-cufq463tq21c73f8occ0-a.oregon-postgres.render.com",
-#         "PORT": "5432",
-#     }
-# }
+
 
 
 #email credentials
@@ -121,8 +115,8 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "gachombajames7@gmail.com"
-EMAIL_HOST_PASSWORD="sxwk fjjq lwqn phfy"
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD=env('EMAIL_HOST_PASSWORD')
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
